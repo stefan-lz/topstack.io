@@ -1,0 +1,3 @@
+production:
+  user: <%= ENV["LIBRATO_EMAIL"] %>
+  token: <%= ENV["LIBRATO_TOKEN"] %>

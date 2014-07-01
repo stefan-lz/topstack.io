@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.0/questions?filter=withbody&fromdate=630460800&key=<STACKAPPS_API_KEY>&pagesize=11&site=stackoverflow&sort=votes&todate=631065600
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Mon, 23 Jun 2014 13:34:20 GMT
+      Content-Length:
+      - '82'
+    body:
+      encoding: UTF-8
+      string: '{"items":[],"has_more":false,"quota_max":10000,"quota_remaining":9988}'
+    http_version: 
+  recorded_at: Sun, 31 Dec 1989 13:00:00 GMT
+recorded_with: VCR 2.9.2

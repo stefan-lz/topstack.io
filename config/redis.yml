@@ -1,0 +1,11 @@
+development:
+  db: 0
+  path: /tmp/redis.sock
+
+test:
+  db: 15
+  path: /tmp/redis.sock
+
+production:
+  db: 0
+  path: /var/run/redis/redis.sock

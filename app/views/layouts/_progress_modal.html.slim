@@ -1,0 +1,25 @@
+#progressModal.modal.fade aria-hidden="true" aria-labelledby="progressModalLabel" role="dialog" tabindex="-1"
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button.close aria-hidden="true" data-dismiss="modal" type="button"  &times;
+        h4#progressModalLabel.modal-title Your Progress
+      - if current_user
+        .modal-body
+          p
+            | Facts absorbed:
+          .progress
+            .progress-bar.progress-bar-black style=("width: #{(current_user.learning_boxes.buried.count.to_f/current_user.learning_boxes.count)*100}%")
+              = current_user.learning_boxes.buried.count
+              |  buried
+            .progress-bar.progress-bar-danger style=("width: #{(current_user.learning_boxes.still_learning.count.to_f/current_user.learning_boxes.count)*100}%")
+              = current_user.learning_boxes.still_learning.count
+              |  still learning
+            .progress-bar.progress-bar-warning style=("width: #{(current_user.learning_boxes.short_term.count.to_f/current_user.learning_boxes.count)*100}%")
+              = current_user.learning_boxes.short_term.count
+              |  short term
+            .progress-bar.progress-bar-info style=("width: #{(current_user.learning_boxes.long_term.count.to_f/current_user.learning_boxes.count)*100}%")
+              = current_user.learning_boxes.long_term.count
+              |  long term
+      .modal-footer
+        button.btn.btn-default data-dismiss="modal" type="button"  Close

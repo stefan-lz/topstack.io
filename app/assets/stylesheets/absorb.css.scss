@@ -1,0 +1,29 @@
+
+.show-answer-button,
+.dont-care-button,
+.not-interested-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.answer {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.scoring {
+
+}
+
+.score-buttons {
+  width: 350px;
+  left: 50%;
+  margin-left: -145px;
+}
+
+.score-button {
+  width: 100px;
+  white-space: normal;
+  padding: 10px;
+}

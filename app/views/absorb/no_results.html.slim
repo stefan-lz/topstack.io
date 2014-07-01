@@ -1,0 +1,10 @@
+.jumbotron
+  - if @question_pool.count == 0
+    h1 No questions found...
+    p No questions where found using given filters
+  - else
+    h1 No questions needing review...
+    p
+      | All #{@question_pool.count} questions have been studied
+      br
+        | Come back after #{local_time_ago(@next_review_time)} to study some more.

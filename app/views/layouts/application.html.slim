@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html
+  head
+    title topstack.io - test yourself against questions on stackoverflow.
+    = stylesheet_link_tag    'application', :media => 'all'
+    = javascript_include_tag 'application'
+    = analytics_init if Rails.env.production?
+    = csrf_meta_tags
+    meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"
+    link rel="icon" type="image/png" href="favicon.png"
+  body
+    = render :partial => "layouts/navbar"
+    = render :partial => "layouts/progress_modal"
+    .container-fluid
+      = render :partial => "layouts/flash"
+      = yield
+

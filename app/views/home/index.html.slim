@@ -1,0 +1,40 @@
+.row
+  .col-md-12
+   .jumbotron
+      h1 topstack.io
+      p
+        | An 
+        a href="https://github.com/stefan-lz/topstack.io" open source
+        |  app to test yourself against some of the most asked questions on stackoverflow.
+      p = link_to 'Get Started >>', '/top-10', {class: "btn btn-lg btn-primary", role: 'button'}
+.row.plain
+  .col-md-4
+    h1 How it works
+    p
+      | It uses the most popular 
+      a href="http://stackoverflow.com" stackoverflow
+      |  quesions, and sprinkles it with some 
+      a href="http://en.wikipedia.org/wiki/Spaced_learning" spaced learning
+      |  algorithms. Kinda inspired by 
+      a href="http://ankisrs.net/" anki
+      | , an excellent flash card program, but also out of a need for continuous, good peer reviewed, modern content.
+  .col-md-4
+    h1 Getting started
+    p Sign in using your stackoverflow account, or just click 'get started' to use a guest account. Select a tag from the drop-down to narrow down the content more relevant to you.  Select monthly or weekly to show more modern content.
+  .col-md-4
+    h1 Contribute
+    p
+      | Got a feature request, don't like something, found a bug? Use 
+      a href="https://github.com/stefan-lz/topstack.io/issues" topstack.io's issue tracker
+      |  on github to add an issue. Or better yet, fork the repo and submit a pull request.
+
+.row.footer
+  .col-md-12
+    p
+      | Designed and built by 
+      a href="http://twitter.com/stefanlz" @stefanlz
+      |  with help from 
+      = link_to "these projects", '/Gemfile'
+    p
+      | Code licensed under the 
+      a href="http://opensource.org/licenses/MIT" MIT license

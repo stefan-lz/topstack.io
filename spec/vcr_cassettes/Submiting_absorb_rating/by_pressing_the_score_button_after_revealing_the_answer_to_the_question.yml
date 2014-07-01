@@ -1,0 +1,694 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.0/tags?key=<STACKAPPS_API_KEY>&pagesize=99&site=stackoverflow&sort=popular
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Mon, 23 Jun 2014 13:34:49 GMT
+      Content-Length:
+      - '1225'
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":662516,"name":"java"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":658313,"name":"c#"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":639366,"name":"javascript"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":598277,"name":"php"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":526525,"name":"android"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":496967,"name":"jquery"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":313699,"name":"python"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":311088,"name":"html"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":298128,"name":"c++"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":254609,"name":"mysql"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":247638,"name":"ios"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":229956,"name":"css"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":224692,"name":"asp.net"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":220500,"name":"sql"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":193727,"name":"iphone"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":189853,"name":"objective-c"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":188387,"name":".net"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":167780,"name":"ruby-on-rails"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":144114,"name":"c"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":107719,"name":"ruby"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":101491,"name":"sql-server"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":95077,"name":"ajax"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":94514,"name":"arrays"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":93186,"name":"xml"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":91583,"name":"regex"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":88290,"name":"asp.net-mvc"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":86248,"name":"wpf"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":82054,"name":"json"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":79244,"name":"linux"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":77017,"name":"database"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":76162,"name":"django"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":69559,"name":"vb.net"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":68141,"name":"eclipse"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":66796,"name":"windows"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":64577,"name":"xcode"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":60717,"name":"string"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":60258,"name":"r"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":57966,"name":"html5"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":57836,"name":"facebook"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":55602,"name":"multithreading"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":53788,"name":"wordpress"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":51293,"name":"ruby-on-rails-3"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":50503,"name":"image"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":50018,"name":"winforms"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":49299,"name":"node.js"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":47116,"name":"forms"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":46865,"name":"excel"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":46289,"name":"spring"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":44348,"name":"osx"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":43750,"name":"performance"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":43222,"name":"oracle"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":42997,"name":"swing"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":42411,"name":"algorithm"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":42330,"name":"git"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":41929,"name":"visual-studio-2010"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":41460,"name":"angularjs"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":40559,"name":"linq"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":40129,"name":"apache"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":38339,"name":"web-services"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":38212,"name":"perl"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":38079,"name":"bash"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":37886,"name":"entity-framework"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":37537,"name":"asp.net-mvc-3"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":37181,"name":"wcf"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":36205,"name":"visual-studio"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":36063,"name":"sql-server-2008"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":35623,"name":"hibernate"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":34495,"name":"matlab"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":33761,"name":"actionscript-3"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":32281,"name":"list"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":32248,"name":"qt"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":31564,"name":".htaccess"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":31501,"name":"sqlite"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":31069,"name":"file"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":30534,"name":"mongodb"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":30331,"name":"ipad"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":29930,"name":"api"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29829,"name":"css3"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29802,"name":"cocoa-touch"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":29731,"name":"function"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29708,"name":"cocoa"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29415,"name":"codeigniter"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":29365,"name":"flash"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":28763,"name":"vba"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":28707,"name":"class"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":28391,"name":"jquery-ui"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":28117,"name":"postgresql"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27967,"name":"google-maps"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27688,"name":"tsql"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":27523,"name":"jsp"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27398,"name":"shell"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27223,"name":"security"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":27044,"name":"delphi"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":26629,"name":"scala"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":26446,"name":"silverlight"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":26406,"name":"sockets"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":26190,"name":"validation"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":26159,"name":"google-app-engine"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":26000,"name":"twitter-bootstrap"}],"has_more":true,"quota_max":10000,"quota_remaining":9972}'
+    http_version: 
+  recorded_at: Thu, 31 Dec 2009 13:00:01 GMT
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.0/questions?filter=withbody&key=<STACKAPPS_API_KEY>&pagesize=11&site=stackoverflow&sort=votes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Mon, 23 Jun 2014 13:34:51 GMT
+      Content-Length:
+      - '6296'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpdGVtcyI6W3sidGFncyI6WyJqYXZhIiwiYysrIiwicGVyZm9ybWFuY2Ui
+        LCJvcHRpbWl6YXRpb24iLCJicmFuY2gtcHJlZGljdGlvbiJdLCJvd25lciI6
+        eyJyZXB1dGF0aW9uIjoxNTIzNDksInVzZXJfaWQiOjg3MjM0LCJ1c2VyX3R5
+        cGUiOiJyZWdpc3RlcmVkIiwiYWNjZXB0X3JhdGUiOjk0LCJwcm9maWxlX2lt
+        YWdlIjoiaHR0cDovL2kuc3RhY2suaW1ndXIuY29tL0ZrakJlLnBuZz9zPTEy
+        OCZnPTEiLCJkaXNwbGF5X25hbWUiOiJHTWFuTmlja0ciLCJsaW5rIjoiaHR0
+        cDovL3N0YWNrb3ZlcmZsb3cuY29tL3VzZXJzLzg3MjM0L2dtYW5uaWNrZyJ9
+        LCJpc19hbnN3ZXJlZCI6dHJ1ZSwidmlld19jb3VudCI6NDQ0Njc5LCJwcm90
+        ZWN0ZWRfZGF0ZSI6MTM5OTA2NzQ3MCwiYWNjZXB0ZWRfYW5zd2VyX2lkIjox
+        MTIyNzkwMiwiYW5zd2VyX2NvdW50Ijo5LCJzY29yZSI6ODA1NywibGFzdF9h
+        Y3Rpdml0eV9kYXRlIjoxMzk2ODk3MTIzLCJjcmVhdGlvbl9kYXRlIjoxMzQw
+        ODA1MDk2LCJsYXN0X2VkaXRfZGF0ZSI6MTM5MDg4NTExOSwicXVlc3Rpb25f
+        aWQiOjExMjI3ODA5LCJsaW5rIjoiaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29t
+        L3F1ZXN0aW9ucy8xMTIyNzgwOS93aHktaXMtcHJvY2Vzc2luZy1hLXNvcnRl
+        ZC1hcnJheS1mYXN0ZXItdGhhbi1hbi11bnNvcnRlZC1hcnJheSIsInRpdGxl
+        IjoiV2h5IGlzIHByb2Nlc3NpbmcgYSBzb3J0ZWQgYXJyYXkgZmFzdGVyIHRo
+        YW4gYW4gdW5zb3J0ZWQgYXJyYXk/IiwiYm9keSI6IjxwPkhlcmUgaXMgYSBw
+        aWVjZSBvZiBDKysgY29kZSB0aGF0IHNlZW1zIHZlcnkgcGVjdWxpYXIuIEZv
+        ciBzb21lIHN0cmFuZ2UgcmVhc29uLCBzb3J0aW5nIHRoZSBkYXRhIG1pcmFj
+        dWxvdXNseSBtYWtlcyB0aGUgY29kZSBhbG1vc3Qgc2l4IHRpbWVzIGZhc3Rl
+        cjo8L3A+XG5cbjxwcmUgY2xhc3M9XCJsYW5nLWNwcCBwcmV0dHlwcmludC1v
+        dmVycmlkZVwiPjxjb2RlPiNpbmNsdWRlICZsdDthbGdvcml0aG0mZ3Q7XG4j
+        aW5jbHVkZSAmbHQ7Y3RpbWUmZ3Q7XG4jaW5jbHVkZSAmbHQ7aW9zdHJlYW0m
+        Z3Q7XG5cbmludCBtYWluKClcbntcbiAgICAvLyBHZW5lcmF0ZSBkYXRhXG4g
+        ICAgY29uc3QgdW5zaWduZWQgYXJyYXlTaXplID0gMzI3Njg7XG4gICAgaW50
+        IGRhdGFbYXJyYXlTaXplXTtcblxuICAgIGZvciAodW5zaWduZWQgYyA9IDA7
+        IGMgJmx0OyBhcnJheVNpemU7ICsrYylcbiAgICAgICAgZGF0YVtjXSA9IHN0
+        ZDo6cmFuZCgpICUgMjU2O1xuXG4gICAgLy8gISEhIFdpdGggdGhpcywgdGhl
+        IG5leHQgbG9vcCBydW5zIGZhc3RlclxuICAgIHN0ZDo6c29ydChkYXRhLCBk
+        YXRhICsgYXJyYXlTaXplKTtcblxuICAgIC8vIFRlc3RcbiAgICBjbG9ja190
+        IHN0YXJ0ID0gY2xvY2soKTtcbiAgICBsb25nIGxvbmcgc3VtID0gMDtcblxu
+        ICAgIGZvciAodW5zaWduZWQgaSA9IDA7IGkgJmx0OyAxMDAwMDA7ICsraSlc
+        biAgICB7XG4gICAgICAgIC8vIFByaW1hcnkgbG9vcFxuICAgICAgICBmb3Ig
+        KHVuc2lnbmVkIGMgPSAwOyBjICZsdDsgYXJyYXlTaXplOyArK2MpXG4gICAg
+        ICAgIHtcbiAgICAgICAgICAgIGlmIChkYXRhW2NdICZndDs9IDEyOClcbiAg
+        ICAgICAgICAgICAgICBzdW0gKz0gZGF0YVtjXTtcbiAgICAgICAgfVxuICAg
+        IH1cblxuICAgIGRvdWJsZSBlbGFwc2VkVGltZSA9IHN0YXRpY19jYXN0Jmx0
+        O2RvdWJsZSZndDsoY2xvY2soKSAtIHN0YXJ0KSAvIENMT0NLU19QRVJfU0VD
+        O1xuXG4gICAgc3RkOjpjb3V0ICZsdDsmbHQ7IGVsYXBzZWRUaW1lICZsdDsm
+        bHQ7IHN0ZDo6ZW5kbDtcbiAgICBzdGQ6OmNvdXQgJmx0OyZsdDsgXCJzdW0g
+        PSBcIiAmbHQ7Jmx0OyBzdW0gJmx0OyZsdDsgc3RkOjplbmRsO1xufVxuPC9j
+        b2RlPjwvcHJlPlxuXG48dWw+XG48bGk+V2l0aG91dCA8Y29kZT5zdGQ6OnNv
+        cnQoZGF0YSwgZGF0YSArIGFycmF5U2l6ZSk7PC9jb2RlPiwgdGhlIGNvZGUg
+        cnVucyBpbiA8c3Ryb25nPjExLjU0PC9zdHJvbmc+IHNlY29uZHMuPC9saT5c
+        bjxsaT5XaXRoIHRoZSBzb3J0ZWQgZGF0YSwgdGhlIGNvZGUgcnVucyBpbiA8
+        c3Ryb25nPjEuOTM8L3N0cm9uZz4gc2Vjb25kcy48L2xpPlxuPC91bD5cblxu
+        PGhyPlxuXG48cD5Jbml0aWFsbHksIEkgdGhvdWdodCB0aGlzIG1pZ2h0IGJl
+        IGp1c3QgYSBsYW5ndWFnZSBvciBjb21waWxlciBhbm9tYWx5LiBTbyBJIHRy
+        aWVkIGl0IGluIEphdmE6PC9wPlxuXG48cHJlIGNsYXNzPVwibGFuZy1qYXZh
+        IHByZXR0eXByaW50LW92ZXJyaWRlXCI+PGNvZGU+aW1wb3J0IGphdmEudXRp
+        bC5BcnJheXM7XG5pbXBvcnQgamF2YS51dGlsLlJhbmRvbTtcblxucHVibGlj
+        IGNsYXNzIE1haW5cbntcbiAgICBwdWJsaWMgc3RhdGljIHZvaWQgbWFpbihT
+        dHJpbmdbXSBhcmdzKVxuICAgIHtcbiAgICAgICAgLy8gR2VuZXJhdGUgZGF0
+        YVxuICAgICAgICBpbnQgYXJyYXlTaXplID0gMzI3Njg7XG4gICAgICAgIGlu
+        dCBkYXRhW10gPSBuZXcgaW50W2FycmF5U2l6ZV07XG5cbiAgICAgICAgUmFu
+        ZG9tIHJuZCA9IG5ldyBSYW5kb20oMCk7XG4gICAgICAgIGZvciAoaW50IGMg
+        PSAwOyBjICZsdDsgYXJyYXlTaXplOyArK2MpXG4gICAgICAgICAgICBkYXRh
+        W2NdID0gcm5kLm5leHRJbnQoKSAlIDI1NjtcblxuICAgICAgICAvLyAhISEg
+        V2l0aCB0aGlzLCB0aGUgbmV4dCBsb29wIHJ1bnMgZmFzdGVyXG4gICAgICAg
+        IEFycmF5cy5zb3J0KGRhdGEpO1xuXG4gICAgICAgIC8vIFRlc3RcbiAgICAg
+        ICAgbG9uZyBzdGFydCA9IFN5c3RlbS5uYW5vVGltZSgpO1xuICAgICAgICBs
+        b25nIHN1bSA9IDA7XG5cbiAgICAgICAgZm9yIChpbnQgaSA9IDA7IGkgJmx0
+        OyAxMDAwMDA7ICsraSlcbiAgICAgICAge1xuICAgICAgICAgICAgLy8gUHJp
+        bWFyeSBsb29wXG4gICAgICAgICAgICBmb3IgKGludCBjID0gMDsgYyAmbHQ7
+        IGFycmF5U2l6ZTsgKytjKVxuICAgICAgICAgICAge1xuICAgICAgICAgICAg
+        ICAgIGlmIChkYXRhW2NdICZndDs9IDEyOClcbiAgICAgICAgICAgICAgICAg
+        ICAgc3VtICs9IGRhdGFbY107XG4gICAgICAgICAgICB9XG4gICAgICAgIH1c
+        blxuICAgICAgICBTeXN0ZW0ub3V0LnByaW50bG4oKFN5c3RlbS5uYW5vVGlt
+        ZSgpIC0gc3RhcnQpIC8gMTAwMDAwMDAwMC4wKTtcbiAgICAgICAgU3lzdGVt
+        Lm91dC5wcmludGxuKFwic3VtID0gXCIgKyBzdW0pO1xuICAgIH1cbn1cbjwv
+        Y29kZT48L3ByZT5cblxuPHA+V2l0aCBhIHNvbWV3aGF0IHNpbWlsYXIsIGJ1
+        dCBsZXNzIGV4dHJlbWUgcmVzdWx0LjwvcD5cblxuPGhyPlxuXG48cD5NeSBm
+        aXJzdCB0aG91Z2h0IHdhcyB0aGF0IHNvcnRpbmcgYnJpbmdzIHRoZSBkYXRh
+        IGludG8gdGhlIGNhY2hlLCBidXQgbXkgbmV4dCB0aG91Z2h0IHdhcyBob3cg
+        c2lsbHkgdGhhdCBpcywgYmVjYXVzZSB0aGUgYXJyYXkgd2FzIGp1c3QgZ2Vu
+        ZXJhdGVkLjwvcD5cblxuPHVsPlxuPGxpPldoYXQgaXMgZ29pbmcgb24/IDwv
+        bGk+XG48bGk+V2h5IGlzIGEgc29ydGVkIGFycmF5IGZhc3RlciB0aGFuIGFu
+        IHVuc29ydGVkIGFycmF5PyA8L2xpPlxuPGxpPlRoZSBjb2RlIGlzIHN1bW1p
+        bmcgdXAgc29tZSBpbmRlcGVuZGVudCB0ZXJtcywgYW5kIHRoZSBvcmRlciBz
+        aG91bGQgbm90IG1hdHRlci4gPC9saT5cbjwvdWw+XG4ifSx7InRhZ3MiOlsi
+        Z2l0IiwiZ2l0LXJld3JpdGUtaGlzdG9yeSJdLCJvd25lciI6eyJyZXB1dGF0
+        aW9uIjozNTc5MywidXNlcl9pZCI6NzQ3MywidXNlcl90eXBlIjoicmVnaXN0
+        ZXJlZCIsImFjY2VwdF9yYXRlIjo2MSwicHJvZmlsZV9pbWFnZSI6Imh0dHBz
+        Oi8vd3d3LmdyYXZhdGFyLmNvbS9hdmF0YXIvOTIxOGRkMTExNWJjNjIwZWMx
+        ZWE3OWZkMDM2OGRhOGU/cz0xMjgmZD1pZGVudGljb24mcj1QRyIsImRpc3Bs
+        YXlfbmFtZSI6IkxhdXJpZSBZb3VuZyIsImxpbmsiOiJodHRwOi8vc3RhY2tv
+        dmVyZmxvdy5jb20vdXNlcnMvNzQ3My9sYXVyaWUteW91bmcifSwiaXNfYW5z
+        d2VyZWQiOnRydWUsInZpZXdfY291bnQiOjc5MDg1MywicHJvdGVjdGVkX2Rh
+        dGUiOjEzNjQ5MzQ0NTUsImFjY2VwdGVkX2Fuc3dlcl9pZCI6MTc5MTQ3LCJh
+        bnN3ZXJfY291bnQiOjIyLCJzY29yZSI6NTM2MCwibGFzdF9hY3Rpdml0eV9k
+        YXRlIjoxNDAyNTEwOTAzLCJjcmVhdGlvbl9kYXRlIjoxMjIzMzk0Mjg3LCJs
+        YXN0X2VkaXRfZGF0ZSI6MTQwMDEwNjQzMiwicXVlc3Rpb25faWQiOjE3OTEy
+        MywibGluayI6Imh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS9xdWVzdGlvbnMv
+        MTc5MTIzL2VkaXQtYW4taW5jb3JyZWN0LWNvbW1pdC1tZXNzYWdlLWluLWdp
+        dCIsInRpdGxlIjoiRWRpdCBhbiBpbmNvcnJlY3QgY29tbWl0IG1lc3NhZ2Ug
+        aW4gR2l0IiwiYm9keSI6IjxwPkkgd3JvdGUgdGhlIHdyb25nIHRoaW5nIGlu
+        IGEgY29tbWl0IG1lc3NhZ2UuPC9wPlxuXG48cD5Ib3cgZG8gSSBjaGFuZ2Ug
+        dGhlIG1lc3NhZ2U/IDxzdHJvbmc+SSBoYXZlIG5vdCB5ZXQgcHVzaGVkIHRo
+        ZSBjb21taXQgdG8gYW55b25lPC9zdHJvbmc+LjwvcD5cbiJ9LHsidGFncyI6
+        WyJnaXQiXSwib3duZXIiOnsicmVwdXRhdGlvbiI6MjEwMTgsInVzZXJfaWQi
+        Ojg5OTA0LCJ1c2VyX3R5cGUiOiJyZWdpc3RlcmVkIiwiYWNjZXB0X3JhdGUi
+        OjY2LCJwcm9maWxlX2ltYWdlIjoiaHR0cHM6Ly93d3cuZ3JhdmF0YXIuY29t
+        L2F2YXRhci80ZmVmNjVjZWFkMTNlNWQ1MTlmNmJjZTNjNTAxYTUzNz9zPTEy
+        OCZkPWlkZW50aWNvbiZyPVBHIiwiZGlzcGxheV9uYW1lIjoiSGFtemEgWWVy
+        bGlrYXlhIiwibGluayI6Imh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS91c2Vy
+        cy84OTkwNC9oYW16YS15ZXJsaWtheWEifSwiaXNfYW5zd2VyZWQiOnRydWUs
+        InZpZXdfY291bnQiOjEyNzQwMzMsInByb3RlY3RlZF9kYXRlIjoxMzcwODQw
+        NDg4LCJhY2NlcHRlZF9hbnN3ZXJfaWQiOjkyNzM4NiwiYW5zd2VyX2NvdW50
+        IjoyNSwiY29tbXVuaXR5X293bmVkX2RhdGUiOjEzNjM0Mjg1MTEsInNjb3Jl
+        Ijo0Njc5LCJsYXN0X2FjdGl2aXR5X2RhdGUiOjE0MDI0NTc3NTksImNyZWF0
+        aW9uX2RhdGUiOjEyNDM2MjA1NTQsImxhc3RfZWRpdF9kYXRlIjoxNDAyNDU3
+        NzU5LCJxdWVzdGlvbl9pZCI6OTI3MzU4LCJsaW5rIjoiaHR0cDovL3N0YWNr
+        b3ZlcmZsb3cuY29tL3F1ZXN0aW9ucy85MjczNTgvdW5kby10aGUtbGFzdC1n
+        aXQtY29tbWl0IiwidGl0bGUiOiJVbmRvIHRoZSBsYXN0IEdpdCBjb21taXQ/
+        IiwiYm9keSI6IjxwPkkgYWNjaWRlbnRhbGx5IGFkZGVkIHRoZSB3cm9uZyBk
+        aXJlY3RvcnkgY29udGFpbmluZyBteSBmaWxlcyBpbiA8YSBocmVmPVwiaHR0
+        cDovL2VuLndpa2lwZWRpYS5vcmcvd2lraS9HaXRfJTI4c29mdHdhcmUlMjlc
+        Ij5HaXQ8L2E+LiBJbnN0ZWFkIG9mIGFkZGluZyBhIDxjb2RlPi5qYXZhPC9j
+        b2RlPiBmaWxlLCBJIGFkZGVkIHRoZSBkaXJlY3RvcnkgY29udGFpbmluZyB0
+        aGUgPGNvZGU+LmNsYXNzPC9jb2RlPiBmaWxlLjwvcD5cblxuPHA+SG93IGNh
+        biBJIHVuZG8gdGhpcyBhY3Rpb24/PC9wPlxuIn0seyJ0YWdzIjpbImpzb24i
+        LCJjb250ZW50LXR5cGUiXSwib3duZXIiOnsicmVwdXRhdGlvbiI6NjM3MTEs
+        InVzZXJfaWQiOjEyODcwLCJ1c2VyX3R5cGUiOiJyZWdpc3RlcmVkIiwiYWNj
+        ZXB0X3JhdGUiOjY4LCJwcm9maWxlX2ltYWdlIjoiaHR0cHM6Ly93d3cuZ3Jh
+        dmF0YXIuY29tL2F2YXRhci9mMGFmNDA3NTY0MjA4NTliNWI2M2NiY2ViNmQz
+        MDUwNT9zPTEyOCZkPWlkZW50aWNvbiZyPVBHIiwiZGlzcGxheV9uYW1lIjoi
+        T2xpIiwibGluayI6Imh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS91c2Vycy8x
+        Mjg3MC9vbGkifSwiaXNfYW5zd2VyZWQiOnRydWUsInZpZXdfY291bnQiOjc2
+        NDQ5NSwicHJvdGVjdGVkX2RhdGUiOjEyOTk2MDYzOTksImFjY2VwdGVkX2Fu
+        c3dlcl9pZCI6NDc3ODE5LCJhbnN3ZXJfY291bnQiOjI0LCJzY29yZSI6NDM1
+        NSwibGFzdF9hY3Rpdml0eV9kYXRlIjoxNDAyNjg5MjY5LCJjcmVhdGlvbl9k
+        YXRlIjoxMjMyODk3MTE5LCJsYXN0X2VkaXRfZGF0ZSI6MTM3MzQ5MDY4NCwi
+        cXVlc3Rpb25faWQiOjQ3NzgxNiwibGluayI6Imh0dHA6Ly9zdGFja292ZXJm
+        bG93LmNvbS9xdWVzdGlvbnMvNDc3ODE2L3doYXQtaXMtdGhlLWNvcnJlY3Qt
+        anNvbi1jb250ZW50LXR5cGUiLCJ0aXRsZSI6IldoYXQgaXMgdGhlIGNvcnJl
+        Y3QgSlNPTiBjb250ZW50IHR5cGU/IiwiYm9keSI6IjxwPkkndmUgYmVlbiBt
+        ZXNzaW5nIGFyb3VuZCB3aXRoIDxhIGhyZWY9XCJodHRwOi8vZW4ud2lraXBl
+        ZGlhLm9yZy93aWtpL0pTT05cIj5KU09OPC9hPiBmb3Igc29tZSB0aW1lLCBq
+        dXN0IHB1c2hpbmcgaXQgb3V0IGFzIHRleHQgYW5kIGl0IGhhc24ndCBodXJ0
+        IGFueWJvZHkgKHRoYXQgSSBrbm93IG9mKSwgYnV0IEknZCBsaWtlIHRvIHN0
+        YXJ0IGRvaW5nIHRoaW5ncyBwcm9wZXJseS48L3A+XG5cbjxwPkkgaGF2ZSBz
+        ZWVuIDxlbT5zbzwvZW0+IG1hbnkgcHVycG9ydGVkIFwic3RhbmRhcmRzXCIg
+        Zm9yIHRoZSBKU09OIGNvbnRlbnQgdHlwZTo8L3A+XG5cbjxwcmU+PGNvZGU+
+        YXBwbGljYXRpb24vanNvblxuYXBwbGljYXRpb24veC1qYXZhc2NyaXB0XG50
+        ZXh0L2phdmFzY3JpcHRcbnRleHQveC1qYXZhc2NyaXB0XG50ZXh0L3gtanNv
+        blxuPC9jb2RlPjwvcHJlPlxuXG48cD5CdXQgd2hpY2ggaXMgY29ycmVjdCwg
+        b3IgYmVzdD8gSSBnYXRoZXIgdGhhdCB0aGVyZSBhcmUgc2VjdXJpdHkgYW5k
+        IGJyb3dzZXIgc3VwcG9ydCBpc3N1ZXMgdmFyeWluZyBiZXR3ZWVuIHRoZW0u
+        PC9wPlxuXG48cD5JIGtub3cgdGhlcmUncyBhIHNpbWlsYXIgcXVlc3Rpb24s
+        IDxlbT48YSBocmVmPVwiaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29tL3F1ZXN0
+        aW9ucy80MDQ0NzAvd2hhdC1taW1lLXR5cGUtaWYtanNvbi1pcy1iZWluZy1y
+        ZXR1cm5lZC1ieS1hLXJlc3QtYXBpXCI+V2hhdCBNSU1FIHR5cGUgaWYgSlNP
+        TiBpcyBiZWluZyByZXR1cm5lZCBieSBhIFJFU1QgQVBJPzwvYT48L2VtPiwg
+        YnV0IEknZCBsaWtlIGEgc2xpZ2h0bHkgbW9yZSB0YXJnZXRlZCBhbnN3ZXIu
+        PC9wPlxuIn0seyJ0YWdzIjpbImMrKyIsImMrKy1mYXEiXSwib3duZXIiOnsi
+        cmVwdXRhdGlvbiI6MzQwMywidXNlcl9pZCI6MTQzODgsInVzZXJfdHlwZSI6
+        InJlZ2lzdGVyZWQiLCJwcm9maWxlX2ltYWdlIjoiaHR0cHM6Ly93d3cuZ3Jh
+        dmF0YXIuY29tL2F2YXRhci8xYjcxZTQyNDFiNGVhZWQ5MzNhOWY2NjZmY2Rl
+        ZmFkYT9zPTEyOCZkPWlkZW50aWNvbiZyPVBHIiwiZGlzcGxheV9uYW1lIjoi
+        Z3JlcHNlZGF3ayIsImxpbmsiOiJodHRwOi8vc3RhY2tvdmVyZmxvdy5jb20v
+        dXNlcnMvMTQzODgvZ3JlcHNlZGF3ayJ9LCJpc19hbnN3ZXJlZCI6dHJ1ZSwi
+        dmlld19jb3VudCI6Njc1MTM0LCJwcm90ZWN0ZWRfZGF0ZSI6MTMzNDU5NjIx
+        NCwiYW5zd2VyX2NvdW50IjoxLCJjb21tdW5pdHlfb3duZWRfZGF0ZSI6MTIz
+        MDAwOTgzNiwic2NvcmUiOjQyODIsImxvY2tlZF9kYXRlIjoxMzk1MzE1OTg0
+        LCJsYXN0X2FjdGl2aXR5X2RhdGUiOjE0MDIwMDU4MDUsImNyZWF0aW9uX2Rh
+        dGUiOjEyMzAwMDk4MzYsImxhc3RfZWRpdF9kYXRlIjoxMzk1MzE1OTY3LCJx
+        dWVzdGlvbl9pZCI6Mzg4MjQyLCJsaW5rIjoiaHR0cDovL3N0YWNrb3ZlcmZs
+        b3cuY29tL3F1ZXN0aW9ucy8zODgyNDIvdGhlLWRlZmluaXRpdmUtYy1ib29r
+        LWd1aWRlLWFuZC1saXN0IiwidGl0bGUiOiJUaGUgRGVmaW5pdGl2ZSBDKysg
+        Qm9vayBHdWlkZSBhbmQgTGlzdCIsImJvZHkiOiI8cD5UaGlzIHF1ZXN0aW9u
+        IGF0dGVtcHRzIHRvIGNvbGxlY3QgdGhlIGZldyBwZWFybHMgYW1vbmcgdGhl
+        IGRvemVucyBvZiBiYWQgQysrIGJvb2tzIHRoYXQgYXJlIHB1Ymxpc2hlZCBl
+        dmVyeSB5ZWFyLjwvcD5cblxuPHA+VW5saWtlIG1hbnkgb3RoZXIgcHJvZ3Jh
+        bW1pbmcgbGFuZ3VhZ2VzLCB3aGljaCBhcmUgb2Z0ZW4gcGlja2VkIHVwIG9u
+        IHRoZSBnbyBmcm9tIHR1dG9yaWFscyBmb3VuZCBvbiB0aGUgSW50ZXJuZXQs
+        IGZldyBhcmUgYWJsZSB0byBxdWlja2x5IHBpY2sgdXAgQysrIHdpdGhvdXQg
+        c3R1ZHlpbmcgYSB3ZWxsLXdyaXR0ZW4gQysrIGJvb2suIEl0IGlzIHdheSB0
+        b28gYmlnIGFuZCBjb21wbGV4IGZvciBkb2luZyB0aGlzLiBJbiBmYWN0LCBp
+        dCBpcyBzbyBiaWcgYW5kIGNvbXBsZXgsIHRoYXQgPHN0cm9uZz48ZW0+dGhl
+        cmUgYXJlIHZlcnkgbWFueSB2ZXJ5IGJhZCBDKysgYm9va3M8L2VtPjwvc3Ry
+        b25nPiBvdXQgdGhlcmUuIEFuZCB3ZSBhcmUgbm90IHRhbGtpbmcgYWJvdXQg
+        YmFkIHN0eWxlLCBidXQgdGhpbmdzIGxpa2Ugc3BvcnRpbmcgPGVtPmdsYXJp
+        bmdseSBvYnZpb3VzIGZhY3R1YWwgZXJyb3JzPC9lbT4gYW5kIDxlbT5wcm9t
+        b3RpbmcgYWJ5c21hbGx5IGJhZCBwcm9ncmFtbWluZyBzdHlsZXM8L2VtPi48
+        L3A+XG5cbjxwPlBsZWFzZSBlZGl0IHRoZSBhY2NlcHRlZCBhbnN3ZXIgdG8g
+        cHJvdmlkZSA8c3Ryb25nPnF1YWxpdHkgYm9va3M8L3N0cm9uZz4gYW5kIGFu
+        IGFwcHJveGltYXRlIHNraWxsIGxldmVsIOKAlCA8ZW0+cHJlZmVyYWJseTwv
+        ZW0+IDxzdHJvbmc+YWZ0ZXI8L3N0cm9uZz4gPGVtPmRpc2N1c3NpbmcgeW91
+        ciBhZGRpdGlvbiBpbiA8YSBocmVmPVwiaHR0cDovL2NoYXQuc3RhY2tvdmVy
+        Zmxvdy5jb20vcm9vbXMvMTAvbG91bmdlY1wiPnRoZSBDKysgY2hhdCByb29t
+        PC9hPjwvZW0+LiAoVGhlIHJlZ3VsYXJzIG1pZ2h0IG1lcmNpbGVzc2x5IHVu
+        ZG8geW91ciB3b3JrIGlmIHRoZXkgZGlzYWdyZWUgd2l0aCBhIHJlY29tbWVu
+        ZGF0aW9uLikgQWRkIGEgc2hvcnQgYmx1cmIvZGVzY3JpcHRpb24gYWJvdXQg
+        ZWFjaCBib29rIHRoYXQgeW91IGhhdmUgcGVyc29uYWxseSByZWFkL2JlbmVm
+        aXRlZCBmcm9tLiBGZWVsIGZyZWUgdG8gZGViYXRlIHF1YWxpdHksIGhlYWRp
+        bmdzLCBldGMuIEJvb2tzIHRoYXQgbWVldCB0aGUgY3JpdGVyaWEgd2lsbCBi
+        ZSBhZGRlZCB0byB0aGUgbGlzdC4gIEJvb2tzIHRoYXQgaGF2ZSByZXZpZXdz
+        IGJ5IHRoZSBBc3NvY2lhdGlvbiBvZiBDIGFuZCBDKysgVXNlcnMgKEFDQ1Up
+        IGhhdmUgbGlua3MgdG8gdGhlIHJldmlldy4gPC9wPlxuXG48cD48c3ViPjxl
+        bT5Ob3RlOiBGQVFzIGFuZCBvdGhlciByZXNvdXJjZXMgY2FuIGJlIGZvdW5k
+        IGluIHRoZSA8YSBocmVmPVwiaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29tL3Rh
+        Z3MvYyUyYiUyYi9pbmZvXCI+QysrIHRhZyBpbmZvPC9hPiBhbmQgdW5kZXIg
+        PGEgaHJlZj1cIi9xdWVzdGlvbnMvdGFnZ2VkL2MlMmIlMmItZmFxXCIgY2xh
+        c3M9XCJwb3N0LXRhZ1wiIHRpdGxlPVwic2hvdyBxdWVzdGlvbnMgdGFnZ2Vk
+        ICYjMzk7YysrLWZhcSYjMzk7XCIgcmVsPVwidGFnXCI+YysrLWZhcTwvYT4u
+        IFRoZXJlIGlzIGFsc28gYSBzaW1pbGFyIHBvc3QgZm9yIEM6IDxhIGhyZWY9
+        XCJodHRwOi8vc3RhY2tvdmVyZmxvdy5jb20vcXVlc3Rpb25zLzU2MjMwMy90
+        aGUtZGVmaW5pdGl2ZS1jLWJvb2stZ3VpZGUtYW5kLWxpc3RcIj5UaGUgRGVm
+        aW5pdGl2ZSBDIEJvb2sgR3VpZGUgYW5kIExpc3Q8L2E+PC9lbT48L3N1Yj48
+        L3A+XG4ifSx7InRhZ3MiOlsiZ2l0IiwiZ2l0aHViIiwiZ2l0LWJyYW5jaCJd
+        LCJvd25lciI6eyJyZXB1dGF0aW9uIjo2NjU2MiwidXNlcl9pZCI6OTU1OTIs
+        InVzZXJfdHlwZSI6InJlZ2lzdGVyZWQiLCJhY2NlcHRfcmF0ZSI6NzgsInBy
+        b2ZpbGVfaW1hZ2UiOiJodHRwOi8vaS5zdGFjay5pbWd1ci5jb20vdXRZNXUu
+        anBnP3M9MTI4Jmc9MSIsImRpc3BsYXlfbmFtZSI6Ik1hdHRoZXcgUmFua2lu
+        IiwibGluayI6Imh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS91c2Vycy85NTU5
+        Mi9tYXR0aGV3LXJhbmtpbiJ9LCJpc19hbnN3ZXJlZCI6dHJ1ZSwidmlld19j
+        b3VudCI6MTA5NjM0NCwicHJvdGVjdGVkX2RhdGUiOjEzNTg3MTg0OTYsImFj
+        Y2VwdGVkX2Fuc3dlcl9pZCI6MjAwMzUxNSwiYW5zd2VyX2NvdW50IjoxMywi
+        c2NvcmUiOjMyMTEsImxhc3RfYWN0aXZpdHlfZGF0ZSI6MTQwMjUxNDEyOSwi
+        Y3JlYXRpb25fZGF0ZSI6MTI2MjY1MzkzNSwibGFzdF9lZGl0X2RhdGUiOjE0
+        MDI1MDAxNjAsInF1ZXN0aW9uX2lkIjoyMDAzNTA1LCJsaW5rIjoiaHR0cDov
+        L3N0YWNrb3ZlcmZsb3cuY29tL3F1ZXN0aW9ucy8yMDAzNTA1L2hvdy10by1k
+        ZWxldGUtYS1naXQtYnJhbmNoLWJvdGgtbG9jYWxseS1hbmQtcmVtb3RlbHki
+        LCJ0aXRsZSI6IkhvdyB0byBkZWxldGUgYSBHaXQgYnJhbmNoIGJvdGggbG9j
+        YWxseSBhbmQgcmVtb3RlbHk/IiwiYm9keSI6IjxwPkkgd2FudCB0byBkZWxl
+        dGUgYSBicmFuY2ggYm90aCBsb2NhbGx5IGFuZCBvbiBteSByZW1vdGUgcHJv
+        amVjdCBmb3JrIG9uIEdpdEh1Yi48L3A+XG5cbjxoMz5TdWNjZXNzZnVsbHkg
+        RGVsZXRlZCBMb2NhbCBCcmFuY2g8L2gzPlxuXG48cHJlPjxjb2RlPiQgZ2l0
+        IGJyYW5jaCAtRCBidWdmaXhcbkRlbGV0ZWQgYnJhbmNoIGJ1Z2ZpeCAod2Fz
+        IDJhMTRlZjcpLlxuPC9jb2RlPjwvcHJlPlxuXG48aDM+QXR0ZW1wdHMgdG8g
+        RGVsZXRlIFJlbW90ZSBCcmFuY2g8L2gzPlxuXG48cHJlPjxjb2RlPiQgZ2l0
+        IGJyYW5jaCAtZCByZW1vdGVzL29yaWdpbi9idWdmaXhcbmVycm9yOiBicmFu
+        Y2ggJ3JlbW90ZXMvb3JpZ2luL2J1Z2ZpeCcgbm90IGZvdW5kLlxuXG4kIGdp
+        dCBicmFuY2ggLWQgb3JpZ2luL2J1Z2ZpeFxuZXJyb3I6IGJyYW5jaCAnb3Jp
+        Z2luL2J1Z2ZpeCcgbm90IGZvdW5kLlxuXG4kIGdpdCBicmFuY2ggLXJkIG9y
+        aWdpbi9idWdmaXhcbkRlbGV0ZWQgcmVtb3RlIGJyYW5jaCBvcmlnaW4vYnVn
+        Zml4ICh3YXMgMmExNGVmNykuXG5cbiQgZ2l0IHB1c2hcbkV2ZXJ5dGhpbmcg
+        dXAtdG8tZGF0ZVxuXG4kIGdpdCBwdWxsXG5Gcm9tIGdpdGh1Yi5jb206Z2l0
+        dXNlci9naXRwcm9qZWN0XG4qIFtuZXcgYnJhbmNoXSBidWdmaXggLSZndDsg
+        b3JpZ2luL2J1Z2ZpeFxuQWxyZWFkeSB1cC10by1kYXRlLlxuPC9jb2RlPjwv
+        cHJlPlxuXG48cD5XaGF0IGRvIEkgbmVlZCB0byBkbyBkaWZmZXJlbnRseSB0
+        byBzdWNjZXNzZnVsbHkgZGVsZXRlIHRoZVxuPGNvZGU+cmVtb3Rlcy9vcmln
+        aW4vYnVnZml4PC9jb2RlPiBicmFuY2ggYm90aCBsb2NhbGx5IGFuZCBvbiBH
+        aXRIdWI/PC9wPlxuIn0seyJ0YWdzIjpbImMrKyIsImMiLCJvcGVyYXRvcnMi
+        LCJzdGFuZGFyZHMtY29tcGxpYW5jZSJdLCJvd25lciI6eyJyZXB1dGF0aW9u
+        IjoxNTIzNDksInVzZXJfaWQiOjg3MjM0LCJ1c2VyX3R5cGUiOiJyZWdpc3Rl
+        cmVkIiwiYWNjZXB0X3JhdGUiOjk0LCJwcm9maWxlX2ltYWdlIjoiaHR0cDov
+        L2kuc3RhY2suaW1ndXIuY29tL0ZrakJlLnBuZz9zPTEyOCZnPTEiLCJkaXNw
+        bGF5X25hbWUiOiJHTWFuTmlja0ciLCJsaW5rIjoiaHR0cDovL3N0YWNrb3Zl
+        cmZsb3cuY29tL3VzZXJzLzg3MjM0L2dtYW5uaWNrZyJ9LCJpc19hbnN3ZXJl
+        ZCI6dHJ1ZSwidmlld19jb3VudCI6MjE2NDEwLCJwcm90ZWN0ZWRfZGF0ZSI6
+        MTI5NzMyMDQ4MiwiYWNjZXB0ZWRfYW5zd2VyX2lkIjoxNjQyMDM1LCJhbnN3
+        ZXJfY291bnQiOjE3LCJjb21tdW5pdHlfb3duZWRfZGF0ZSI6MTI2MjIzMzA2
+        OCwic2NvcmUiOjMxODksImxhc3RfYWN0aXZpdHlfZGF0ZSI6MTQwMTE1Nzg2
+        NiwiY3JlYXRpb25fZGF0ZSI6MTI1Njc5OTQ2NSwibGFzdF9lZGl0X2RhdGUi
+        OjEzOTY1NzY3OTAsInF1ZXN0aW9uX2lkIjoxNjQyMDI4LCJsaW5rIjoiaHR0
+        cDovL3N0YWNrb3ZlcmZsb3cuY29tL3F1ZXN0aW9ucy8xNjQyMDI4L3doYXQt
+        aXMtdGhlLW5hbWUtb2YtdGhpcy1vcGVyYXRvciIsInRpdGxlIjoiV2hhdCBp
+        cyB0aGUgbmFtZSBvZiB0aGlzIG9wZXJhdG9yOiAmcXVvdDstLSZndDsmcXVv
+        dDs/IiwiYm9keSI6IjxwPkFmdGVyIHJlYWRpbmcgPGEgaHJlZj1cImh0dHA6
+        Ly9ncm91cHMuZ29vZ2xlLmNvbS9ncm91cC9jb21wLmxhbmcuYysrLm1vZGVy
+        YXRlZC9tc2cvMzNmMTczNzgwZDU4ZGQyMFwiPkhpZGRlbiBGZWF0dXJlcyBh
+        bmQgRGFyayBDb3JuZXJzIG9mIEMrKy9TVEw8L2E+IG9uIGNvbXAubGFuZy5j
+        KysubW9kZXJhdGVkLCBJIHdhcyBjb21wbGV0ZWx5IHN1cnByaXNlZCB0aGF0
+        IGl0IGNvbXBpbGVkIGFuZCB3b3JrZWQgaW4gYm90aCBWaXN1YWwgU3R1ZGlv
+        IDIwMDggYW5kIEcrKyA0LjQuPC9wPlxuXG48cD5UaGUgY29kZTo8L3A+XG5c
+        bjxwcmU+PGNvZGU+I2luY2x1ZGUgJmx0O3N0ZGlvLmgmZ3Q7XG5pbnQgbWFp
+        bigpXG57XG4gICAgIGludCB4ID0gMTA7XG4gICAgIHdoaWxlKCB4IC0tJmd0
+        OyAwICkgLy8geCBnb2VzIHRvIDBcbiAgICAge1xuICAgICAgIHByaW50Zihc
+        IiVkIFwiLCB4KTtcbiAgICAgfVxufVxuPC9jb2RlPjwvcHJlPlxuXG48cD5J
+        J2QgYXNzdW1lIHRoaXMgaXMgQywgc2luY2UgaXQgd29ya3MgaW4gR0NDIGFz
+        IHdlbGwuIFxuV2hlcmUgaXMgdGhpcyBkZWZpbmVkIGluIHRoZSBzdGFuZGFy
+        ZCwgYW5kIHdoZXJlIGhhcyBpdCBjb21lIGZyb20/PC9wPlxuIn0seyJ0YWdz
+        IjpbImdpdCIsInB1bGwiXSwib3duZXIiOnsicmVwdXRhdGlvbiI6NDQ1Njcs
+        InVzZXJfaWQiOjYwNjgsInVzZXJfdHlwZSI6InJlZ2lzdGVyZWQiLCJhY2Nl
+        cHRfcmF0ZSI6ODAsInByb2ZpbGVfaW1hZ2UiOiJodHRwczovL3d3dy5ncmF2
+        YXRhci5jb20vYXZhdGFyLzkzMTk3MGI4ZGM1MWI3MmUwNWUzYTEyYjg4NjEy
+        ZDYxP3M9MTI4JmQ9aWRlbnRpY29uJnI9UEciLCJkaXNwbGF5X25hbWUiOiJQ
+        YWJsbyIsImxpbmsiOiJodHRwOi8vc3RhY2tvdmVyZmxvdy5jb20vdXNlcnMv
+        NjA2OC9wYWJsbyJ9LCJpc19hbnN3ZXJlZCI6dHJ1ZSwidmlld19jb3VudCI6
+        NjM4Mzk1LCJwcm90ZWN0ZWRfZGF0ZSI6MTM2Mjg3OTA0NCwiYWNjZXB0ZWRf
+        YW5zd2VyX2lkIjoyOTIzNTksImFuc3dlcl9jb3VudCI6MTcsInNjb3JlIjoz
+        MDc1LCJsYXN0X2FjdGl2aXR5X2RhdGUiOjE0MDI0NTc3OTUsImNyZWF0aW9u
+        X2RhdGUiOjEyMjY3NDI2NjksImxhc3RfZWRpdF9kYXRlIjoxNDAyNDU3Nzk1
+        LCJxdWVzdGlvbl9pZCI6MjkyMzU3LCJsaW5rIjoiaHR0cDovL3N0YWNrb3Zl
+        cmZsb3cuY29tL3F1ZXN0aW9ucy8yOTIzNTcvZGlmZmVyZW5jZS1iZXR3ZWVu
+        LWdpdC1wdWxsLWFuZC1naXQtZmV0Y2giLCJ0aXRsZSI6IkRpZmZlcmVuY2Ug
+        YmV0d2VlbiAmIzM5O2dpdCBwdWxsJiMzOTsgYW5kICYjMzk7Z2l0IGZldGNo
+        JiMzOTs/IiwiYm9keSI6IjxwPldoYXQncyB0aGUgZGlmZmVyZW5jZSBiZXR3
+        ZWVuIDxjb2RlPmdpdCBwdWxsPC9jb2RlPiBhbmQgPGNvZGU+Z2l0IGZldGNo
+        PC9jb2RlPiBpbiBHaXQ/PC9wPlxuIn0seyJ0YWdzIjpbIm1lbW9yeS1tYW5h
+        Z2VtZW50Iiwic3RhY2siLCJoZWFwIl0sIm93bmVyIjp7InJlcHV0YXRpb24i
+        OjE0NjIxLCJ1c2VyX2lkIjoxMzE2MSwidXNlcl90eXBlIjoicmVnaXN0ZXJl
+        ZCIsInByb2ZpbGVfaW1hZ2UiOiJodHRwczovL3d3dy5ncmF2YXRhci5jb20v
+        YXZhdGFyL2UzZGNiZGUzOGIxZjcwYzc3YjFkYjY0MmYzMWEyMjNkP3M9MTI4
+        JmQ9aWRlbnRpY29uJnI9UEciLCJkaXNwbGF5X25hbWUiOiJtYXR0c2hhbmUi
+        LCJsaW5rIjoiaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29tL3VzZXJzLzEzMTYx
+        L21hdHRzaGFuZSJ9LCJpc19hbnN3ZXJlZCI6dHJ1ZSwidmlld19jb3VudCI6
+        NDYzNDcxLCJwcm90ZWN0ZWRfZGF0ZSI6MTMxNTk0MjM5NSwiYWNjZXB0ZWRf
+        YW5zd2VyX2lkIjo4MDExMywiYW5zd2VyX2NvdW50IjoxNywic2NvcmUiOjI5
+        MjAsImxhc3RfYWN0aXZpdHlfZGF0ZSI6MTQwMjU0NzI4NiwiY3JlYXRpb25f
+        ZGF0ZSI6MTIyMTYyNTA4NiwibGFzdF9lZGl0X2RhdGUiOjEzNjk5NTE5NDMs
+        InF1ZXN0aW9uX2lkIjo3OTkyMywibGluayI6Imh0dHA6Ly9zdGFja292ZXJm
+        bG93LmNvbS9xdWVzdGlvbnMvNzk5MjMvd2hhdC1hbmQtd2hlcmUtYXJlLXRo
+        ZS1zdGFjay1hbmQtaGVhcCIsInRpdGxlIjoiV2hhdCBhbmQgd2hlcmUgYXJl
+        IHRoZSBzdGFjayBhbmQgaGVhcD8iLCJib2R5IjoiPHA+UHJvZ3JhbW1pbmcg
+        bGFuZ3VhZ2UgYm9va3MgdXN1YWxseSBleHBsYWluIHRoYXQgdmFsdWUgdHlw
+        ZXMgYXJlIGNyZWF0ZWQgb24gdGhlIHN0YWNrLCBhbmQgcmVmZXJlbmNlIHR5
+        cGVzIGFyZSBjcmVhdGVkIG9uIHRoZSBoZWFwLCB3aXRob3V0IHJlYWxseSBl
+        eHBsYWluaW5nIHdoYXQgdGhlc2UgdHdvIHRoaW5ncyBhcmUuICBXaXRoIG15
+        IG9ubHkgcHJvZ3JhbW1pbmcgZXhwZXJpZW5jZSBiZWluZyBpbiBoaWdoIGxl
+        dmVsIGxhbmd1YWdlcywgSSBoYXZlbid0IHJlYWQgYSBjbGVhciBleHBsYW5h
+        dGlvbiBvZiB0aGlzLiAgSSBtZWFuIEkgdW5kZXJzdGFuZCB3aGF0IDxlbT5h
+        IHN0YWNrPC9lbT4gaXMsIGJ1dCB3aGVyZSBhbmQgd2hhdCBhcmUgdGhleSAo
+        cmVsYXRpdmUgdG8gdGhlIHBoeXNpY2FsIG1lbW9yeSBvZiBhIHJlYWwgY29t
+        cHV0ZXIpPyAgPC9wPlxuXG48dWw+XG48bGk+VG8gd2hhdCBleHRlbnQgYXJl
+        IHRoZXkgY29udHJvbGxlZCBieSB0aGUgT1Mgb3IgbGFuZ3VhZ2UgcnVudGlt
+        ZT88L2xpPlxuPGxpPldoYXQgaXMgdGhlaXIgc2NvcGU/PC9saT5cbjxsaT5X
+        aGF0IGRldGVybWluZXMgdGhlIHNpemUgb2YgZWFjaCBvZiB0aGVtPzwvbGk+
+        XG48bGk+V2hhdCBtYWtlcyBvbmUgZmFzdGVyPyA8L2xpPlxuPC91bD5cbiJ9
+        LHsidGFncyI6WyJqYXZhc2NyaXB0IiwianF1ZXJ5IiwiYW5ndWxhcmpzIl0s
+        Im93bmVyIjp7InJlcHV0YXRpb24iOjc5NDA1LCJ1c2VyX2lkIjoyMTU5NDUs
+        InVzZXJfdHlwZSI6InJlZ2lzdGVyZWQiLCJhY2NlcHRfcmF0ZSI6MTAwLCJw
+        cm9maWxlX2ltYWdlIjoiaHR0cDovL2kuc3RhY2suaW1ndXIuY29tL095RXND
+        LnBuZz9zPTEyOCZnPTEiLCJkaXNwbGF5X25hbWUiOiJNYXJrIFJhamNvayIs
+        ImxpbmsiOiJodHRwOi8vc3RhY2tvdmVyZmxvdy5jb20vdXNlcnMvMjE1OTQ1
+        L21hcmstcmFqY29rIn0sImlzX2Fuc3dlcmVkIjp0cnVlLCJ2aWV3X2NvdW50
+        IjozMTQyNzQsInByb3RlY3RlZF9kYXRlIjoxMzYzNzU2MzAxLCJhY2NlcHRl
+        ZF9hbnN3ZXJfaWQiOjE1MDEyNTQyLCJhbnN3ZXJfY291bnQiOjEzLCJzY29y
+        ZSI6Mjg3MywibGFzdF9hY3Rpdml0eV9kYXRlIjoxNDAzNTExNzM0LCJjcmVh
+        dGlvbl9kYXRlIjoxMzYxNDE5Nzk2LCJsYXN0X2VkaXRfZGF0ZSI6MTM4ODc1
+        OTE5MiwicXVlc3Rpb25faWQiOjE0OTk0MzkxLCJsaW5rIjoiaHR0cDovL3N0
+        YWNrb3ZlcmZsb3cuY29tL3F1ZXN0aW9ucy8xNDk5NDM5MS9ob3ctZG8taS10
+        aGluay1pbi1hbmd1bGFyanMtaWYtaS1oYXZlLWEtanF1ZXJ5LWJhY2tncm91
+        bmQiLCJ0aXRsZSI6IkhvdyBkbyBJICZxdW90O3RoaW5rIGluIEFuZ3VsYXJK
+        UyZxdW90OyBpZiBJIGhhdmUgYSBqUXVlcnkgYmFja2dyb3VuZD8iLCJib2R5
+        IjoiPHA+PHN0cm9uZz5Ib3cgZG8gSSDigJx0aGluayBpbiA8YSBocmVmPVwi
+        aHR0cDovL2FuZ3VsYXJqcy5vcmcvXCI+QW5ndWxhckpTPC9hPuKAnSBpZiBJ
+        IGhhdmUgYSA8YSBocmVmPVwiaHR0cDovL2pxdWVyeS5jb20vXCI+alF1ZXJ5
+        PC9hPiBiYWNrZ3JvdW5kPzwvc3Ryb25nPjwvcD5cblxuPHA+U3VwcG9zZSBJ
+        J20gZmFtaWxpYXIgd2l0aCBkZXZlbG9waW5nIDxlbT5jbGllbnQtc2lkZSBh
+        cHBsaWNhdGlvbnM8L2VtPiBpbiBqUXVlcnksIGJ1dCBub3cgSSdkIGxpa2Ug
+        dG8gc3RhcnQgdXNpbmcgQW5ndWxhckpTLiBDYW4geW91IGRlc2NyaWJlIHRo
+        ZSBwYXJhZGlnbSBzaGlmdCB0aGF0IGlzIG5lY2Vzc2FyeSA/IEhlcmUgYXJl
+        IGEgZmV3IHF1ZXN0aW9ucyB0aGF0IG1pZ2h0IGhlbHAgeW91IGZyYW1lIGFu
+        IGFuc3dlcjo8L3A+XG5cbjx1bD5cbjxsaT5Ib3cgZG8gSSBhcmNoaXRlY3Qg
+        YW5kIGRlc2lnbiA8ZW0+Y2xpZW50LXNpZGUgd2ViIGFwcGxpY2F0aW9uczwv
+        ZW0+IGRpZmZlcmVudGx5PyBXaGF0IGlzIHRoZSBiaWdnZXN0IGRpZmZlcmVu
+        Y2U/PC9saT5cbjxsaT5XaGF0IHNob3VsZCBJIHN0b3AgZG9pbmcvdXNpbmc7
+        IHdoYXQgc2hvdWxkIEkgc3RhcnQgZG9pbmcvdXNpbmcgaW5zdGVhZD88L2xp
+        PlxuPGxpPkFyZSB0aGVyZSBhbnkgc2VydmVyLXNpZGUgY29uc2lkZXJhdGlv
+        bnMvcmVzdHJpY3Rpb25zPzwvbGk+XG48L3VsPlxuXG48cD5JJ20gbm90IGxv
+        b2tpbmcgZm9yIGEgZGV0YWlsZWQgY29tcGFyaXNvbiBiZXR3ZWVuIGpRdWVy
+        eSBhbmQgQW5ndWxhckpTLjwvcD5cbiJ9LHsidGFncyI6WyJqYXZhc2NyaXB0
+        IiwiY2xvc3VyZXMiXSwib3duZXIiOnsicmVwdXRhdGlvbiI6MTQ0MjIwLCJ1
+        c2VyX2lkIjo5OTUxLCJ1c2VyX3R5cGUiOiJyZWdpc3RlcmVkIiwiYWNjZXB0
+        X3JhdGUiOjc5LCJwcm9maWxlX2ltYWdlIjoiaHR0cHM6Ly93d3cuZ3JhdmF0
+        YXIuY29tL2F2YXRhci9kNDg4MjNkYzE3M2UzNDcxNDgzMGE4NDFmZTdjNmIw
+        Zj9zPTEyOCZkPWlkZW50aWNvbiZyPVBHIiwiZGlzcGxheV9uYW1lIjoiZS1z
+        YXRpcyIsImxpbmsiOiJodHRwOi8vc3RhY2tvdmVyZmxvdy5jb20vdXNlcnMv
+        OTk1MS9lLXNhdGlzIn0sImlzX2Fuc3dlcmVkIjp0cnVlLCJ2aWV3X2NvdW50
+        Ijo0MjMyMjcsInByb3RlY3RlZF9kYXRlIjoxMzE2NDUwMTMxLCJhY2NlcHRl
+        ZF9hbnN3ZXJfaWQiOjExMTIwMCwiYW5zd2VyX2NvdW50Ijo0NywiY29tbXVu
+        aXR5X293bmVkX2RhdGUiOjEzNzA1MTQxNzUsInNjb3JlIjoyODEzLCJsYXN0
+        X2FjdGl2aXR5X2RhdGUiOjE0MDIzMjc1OTgsImNyZWF0aW9uX2RhdGUiOjEy
+        MjIwMDYzMjcsImxhc3RfZWRpdF9kYXRlIjoxNDAxODEwNDYzLCJxdWVzdGlv
+        bl9pZCI6MTExMTAyLCJsaW5rIjoiaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29t
+        L3F1ZXN0aW9ucy8xMTExMDIvaG93LWRvLWphdmFzY3JpcHQtY2xvc3VyZXMt
+        d29yayIsInRpdGxlIjoiSG93IGRvIEphdmFTY3JpcHQgY2xvc3VyZXMgd29y
+        az8iLCJib2R5IjoiPHA+SG93IHdvdWxkIHlvdSBleHBsYWluIGNsb3N1cmVz
+        IHRvIHNvbWVvbmUgd2l0aCBhIGtub3dsZWRnZSBvZiB0aGUgY29uY2VwdHMg
+        d2hpY2ggbWFrZSB1cCBjbG9zdXJlcyAoZS5nLiBmdW5jdGlvbnMsIHZhcmlh
+        YmxlcyBhbmQgdGhlIGxpa2UpLCBidXQgZG9lcyBub3QgdW5kZXJzdGFuZCBj
+        bG9zdXJlcyB0aGVtc2VsdmVzPzwvcD5cblxuPHA+SSBoYXZlIHNlZW4gdGhl
+        IDxhIGhyZWY9XCJodHRwOi8vZW4ud2lraXBlZGlhLm9yZy93aWtpL1NjaGVt
+        ZV8lMjhwcm9ncmFtbWluZ19sYW5ndWFnZSUyOVwiPlNjaGVtZTwvYT4gZXhh
+        bXBsZSBnaXZlbiBpbiBTdGFjayBPdmVyZmxvdywgYW5kIGl0IGRpZCBub3Qg
+        aGVscC48L3A+XG5cbjxwPkFydGljbGVzIGxpbmtlZCBpbiBwb3N0PC9wPlxu
+        XG48b2w+XG48bGk+PGEgaHJlZj1cImh0dHA6Ly9lbi53aWtpcGVkaWEub3Jn
+        L3dpa2kvQ2xvc3VyZV8lMjhjb21wdXRlcl9zY2llbmNlJTI5XCI+V2lraXBl
+        ZGlhIENsb3N1cmVzPC9hPjwvbGk+XG48bGk+PGEgaHJlZj1cImh0dHA6Ly9n
+        b28uZ2wvMXR5TW9nXCI+Q2xvc3VyZXMgYW5kIGl0cyBlZmZlY3RzIGluIGxv
+        b3BzPC9hPjwvbGk+XG48bGk+PGEgaHJlZj1cImh0dHA6Ly9uYXRoYW5zanNs
+        ZXNzb25zLmFwcHNwb3QuY29tL1wiPldoYXQgaXMgY2xvc3VyZXM8L2E+PC9s
+        aT5cbjxsaT48YSBocmVmPVwiaHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5v
+        cmcvZW4tVVMvZG9jcy9XZWIvSmF2YVNjcmlwdC9HdWlkZS9DbG9zdXJlc1wi
+        Pk1ETiBDbG9zdXJlczwvYT48L2xpPlxuPGxpPjxhIGhyZWY9XCJodHRwOi8v
+        amF2YXNjcmlwdGlzc2V4eS5jb20vdW5kZXJzdGFuZC1qYXZhc2NyaXB0LWNs
+        b3N1cmVzLXdpdGgtZWFzZS9cIj5VbmRlcnN0YW5kIENsb3N1cmVzPC9hPjwv
+        bGk+XG48bGk+PGEgaHJlZj1cImh0dHA6Ly93ZWIuYXJjaGl2ZS5vcmcvd2Vi
+        LzIwMDcwNTEwMDAwNDA0L2h0dHA6Ly9sYXVyZW5zLnZkLm9ldmVyLm5sL3dl
+        YmxvZy9pdGVtczIwMDUvY2xvc3VyZXMvXCI+TGVhayBmcmVlIENsb3N1cmVz
+        PC9hPjwvbGk+XG48L29sPlxuIn1dLCJoYXNfbW9yZSI6dHJ1ZSwicXVvdGFf
+        bWF4IjoxMDAwMCwicXVvdGFfcmVtYWluaW5nIjo5OTcxfQ==
+    http_version: 
+  recorded_at: Thu, 31 Dec 2009 13:00:03 GMT
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.0/answers/11227902?filter=withbody&key=<STACKAPPS_API_KEY>&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Mon, 23 Jun 2014 13:34:52 GMT
+      Content-Length:
+      - '3315'
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"owner":{"reputation":161845,"user_id":922184,"user_type":"registered","profile_image":"http://i.stack.imgur.com/Wv6qh.jpg?s=128&g=1","display_name":"Mysticial","link":"http://stackoverflow.com/users/922184/mysticial"},"is_accepted":true,"score":12225,"last_activity_date":1395003281,"last_edit_date":1395003281,"creation_date":1340805402,"answer_id":11227902,"question_id":11227809,"body":"<p><strong>You
+        are the victim of <a href=\"//en.wikipedia.org/wiki/Branch_predictor\">branch
+        prediction</a> fail.</strong></p>\n\n<hr>\n\n<h2>What is Branch Prediction?</h2>\n\n<p>Consider
+        a railroad junction:</p>\n\n<p><a href=\"//commons.wikimedia.org/wiki/File%3aEntroncamento_do_Transpraia.JPG\"><img
+        src=\"//i.stack.imgur.com/muxnt.jpg\" alt=\"\"></a>\n<sub><a href=\"//commons.wikimedia.org/wiki/File%3aEntroncamento_do_Transpraia.JPG\">Image</a>
+        by Mecanismo, via Wikimedia Commons. Used under the <a href=\"//creativecommons.org/licenses/by-sa/3.0/deed.en\">CC-By-SA
+        3.0</a> license.</sub></p>\n\n<p>Now for the sake of argument, suppose this
+        is back in the 1800s - before long distance or radio communication.</p>\n\n<p>You
+        are the operator of a junction and you hear a train coming. You have no idea
+        which way it will go. You stop the train to ask the captain which direction
+        he wants. And then you set the switch appropriately.</p>\n\n<p><em>Trains
+        are heavy and have a lot of inertia. So they take forever to start up and
+        slow down.</em></p>\n\n<p>Is there a better way? You guess which direction
+        the train will go!</p>\n\n<ul>\n<li>If you guessed right, it continues on.</li>\n<li>If
+        you guessed wrong, the captain will stop, back up, and yell at you to flip
+        the switch. Then it can restart down the other path.</li>\n</ul>\n\n<p><strong>If
+        you guess right every time</strong>, the train will never have to stop.<br>\n<strong>If
+        you guess wrong too often</strong>, the train will spend a lot of time stopping,
+        backing up, and restarting.</p>\n\n<hr>\n\n<p><strong>Consider an if-statement:</strong>
+        At the processor level, it is a branch instruction:</p>\n\n<p><img src=\"//i.stack.imgur.com/pyfwC.png\"
+        alt=\"enter image description here\"></p>\n\n<p>You are a processor and you
+        see a branch. You have no idea which way it will go. What do you do? You halt
+        execution and wait until the previous instructions are complete. Then you
+        continue down the correct path.</p>\n\n<p><em>Modern processors are complicated
+        and have long pipelines. So they take forever to \"warm up\" and \"slow down\".</em></p>\n\n<p>Is
+        there a better way? You guess which direction the branch will go!</p>\n\n<ul>\n<li>If
+        you guessed right, you continue executing.</li>\n<li>If you guessed wrong,
+        you need to flush the pipeline and roll back to the branch. Then you can restart
+        down the other path.</li>\n</ul>\n\n<p><strong>If you guess right every time</strong>,
+        the execution will never have to stop.<br>\n<strong>If you guess wrong too
+        often</strong>, you spend a lot of time stalling, rolling back, and restarting.</p>\n\n<hr>\n\n<p>This
+        is branch prediction. I admit it''s not the best analogy since the train could
+        just signal the direction with a flag. But in computers, the processor doesn''t
+        know which direction a branch will go until the last moment.</p>\n\n<p>So
+        how would you strategically guess to minimize the number of times that the
+        train must back up and go down the other path? You look at the past history!
+        If the train goes left 99% of the time, then you guess left. If it alternates,
+        then you alternate your guesses. If it goes one way every 3 times, you guess
+        the same...</p>\n\n<p><em><strong>In other words, you try to identify a pattern
+        and follow it.</em></strong> This is more or less how branch predictors work.</p>\n\n<p>Most
+        applications have well-behaved branches. So modern branch predictors will
+        typically achieve >90% hit rates. But when faced with unpredictable branches
+        with no recognizable patterns, branch predictors are virtually useless.</p>\n\n<p>Further
+        reading: <a href=\"//en.wikipedia.org/wiki/Branch_predictor\">\"Branch predictor\"
+        article on Wikipedia</a>.</p>\n\n<hr>\n\n<h2>As hinted from above, the culprit
+        is this if-statement:</h2>\n\n<pre><code>if (data[c] &gt;= 128)\n    sum +=
+        data[c];\n</code></pre>\n\n<p>Notice that the data is evenly distributed between
+        0 and 255. \nWhen the data is sorted, roughly the first half of the iterations
+        will not enter the if-statement. After that, they will all enter the if-statement.</p>\n\n<p>This
+        is very friendly to the branch predictor since the branch consecutively goes
+        the same direction many times.\nEven a simple saturating counter will correctly
+        predict the branch except for the few iterations after it switches direction.</p>\n\n<p><strong>Quick
+        visualization:</strong></p>\n\n<pre><code>T = branch taken\nN = branch not
+        taken\n\ndata[] = 0, 1, 2, 3, 4, ... 126, 127, 128, 129, 130, ... 250, 251,
+        252, ...\nbranch = N  N  N  N  N  ...   N    N    T    T    T  ...   T    T    T  ...\n\n       =
+        NNNNNNNNNNNN ... NNNNNNNTTTTTTTTT ... TTTTTTTTTT  (easy to predict)\n</code></pre>\n\n<p>However,
+        when the data is completely random, the branch predictor is rendered useless
+        because it can''t predict random data.\nThus there will probably be around
+        50% misprediction. (no better than random guessing)</p>\n\n<pre><code>data[]
+        = 226, 185, 125, 158, 198, 144, 217, 79, 202, 118,  14, 150, 177, 182, 133,
+        ...\nbranch =   T,   T,   N,   T,   T,   T,   T,  N,   T,   N,   N,   T,   T,   T,   N  ...\n\n       =
+        TTNTTTTNTNNTTTN ...   (completely random - hard to predict)\n</code></pre>\n\n<hr>\n\n<p><strong>So
+        what can be done?</strong></p>\n\n<p>If the compiler isn''t able to optimize
+        the branch into a conditional move, you can try some hacks if you are willing
+        to sacrifice readability for performance.</p>\n\n<p>Replace:</p>\n\n<pre><code>if
+        (data[c] &gt;= 128)\n    sum += data[c];\n</code></pre>\n\n<p>with:</p>\n\n<pre><code>int
+        t = (data[c] - 128) &gt;&gt; 31;\nsum += ~t &amp; data[c];\n</code></pre>\n\n<p>This
+        eliminates the branch and replaces it with some bitwise operations.</p>\n\n<p><sub>(Note
+        that this hack is not strictly equivalent to the original if-statement. But
+        in this case, it''s valid for all the input values of <code>data[]</code>.)</sub></p>\n\n<p><strong>Benchmarks:
+        Core i7 920 @ 3.5 GHz</strong></p>\n\n<p>C++ - Visual Studio 2010 - x64 Release</p>\n\n<pre><code>//  Branch
+        - Random\nseconds = 11.777\n\n//  Branch - Sorted\nseconds = 2.352\n\n//  Branchless
+        - Random\nseconds = 2.564\n\n//  Branchless - Sorted\nseconds = 2.587\n</code></pre>\n\n<p>Java
+        - Netbeans 7.1.1 JDK 7 - x64</p>\n\n<pre><code>//  Branch - Random\nseconds
+        = 10.93293813\n\n//  Branch - Sorted\nseconds = 5.643797077\n\n//  Branchless
+        - Random\nseconds = 3.113581453\n\n//  Branchless - Sorted\nseconds = 3.186068823\n</code></pre>\n\n<p>Observations:</p>\n\n<ul>\n<li><strong>With
+        the Branch:</strong> There is a huge difference between the sorted and unsorted
+        data.</li>\n<li><strong>With the Hack:</strong> There is no difference between
+        sorted and unsorted data.</li>\n<li>In the C++ case, the hack is actually
+        a tad slower than with the branch when the data is sorted.</li>\n</ul>\n\n<p>A
+        general rule of thumb is to avoid data-dependent branching in critical loops.
+        (such as in this example)</p>\n\n<hr>\n\n<p><strong>Update :</strong></p>\n\n<ul>\n<li><p>GCC
+        4.6.1 with <code>-O3</code> or <code>-ftree-vectorize</code> on x64 is able
+        to generate a conditional move. So there is no difference between the sorted
+        and unsorted data - both are fast.</p></li>\n<li><p>VC++ 2010 is unable to
+        generate conditional moves for this branch even under <code>/Ox</code>.</p></li>\n<li><p>Intel
+        Compiler 11 does something miraculous. It <a href=\"//en.wikipedia.org/wiki/Loop_interchange\">interchanges
+        the two loops</a>, thereby hoisting the unpredictable branch to the outer
+        loop. So not only is it immune the mispredictions, it is also twice as fast
+        as whatever VC++ and GCC can generate! In other words, ICC took advantage
+        of the test-loop to defeat the benchmark...</p></li>\n<li><p>If you give the
+        Intel Compiler the branchless code, it just out-right vectorizes it... and
+        is just as fast as with the branch (with the loop interchange).</p></li>\n</ul>\n\n<p>This
+        goes to show that even mature modern compilers can vary wildly in their ability
+        to optimize code...</p>\n"}],"has_more":false,"quota_max":10000,"quota_remaining":9970}'
+    http_version: 
+  recorded_at: Thu, 31 Dec 2009 13:00:04 GMT
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.0/answers/179147?filter=withbody&key=<STACKAPPS_API_KEY>&site=stackoverflow
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Mon, 23 Jun 2014 13:34:55 GMT
+      Content-Length:
+      - '1189'
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJpdGVtcyI6W3sib3duZXIiOnsicmVwdXRhdGlvbiI6NTQzMDAsInVzZXJf
+        aWQiOjE0MTEzLCJ1c2VyX3R5cGUiOiJyZWdpc3RlcmVkIiwiYWNjZXB0X3Jh
+        dGUiOjc4LCJwcm9maWxlX2ltYWdlIjoiaHR0cHM6Ly93d3cuZ3JhdmF0YXIu
+        Y29tL2F2YXRhci8wYWEwMDEzYmY3YTU0NTFkZmIzNmJiY2UyNWY3NTUyNj9z
+        PTEyOCZkPWlkZW50aWNvbiZyPVBHIiwiZGlzcGxheV9uYW1lIjoiRWZGb3JF
+        ZmZvcnQiLCJsaW5rIjoiaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29tL3VzZXJz
+        LzE0MTEzL2VmZm9yZWZmb3J0In0sImlzX2FjY2VwdGVkIjp0cnVlLCJjb21t
+        dW5pdHlfb3duZWRfZGF0ZSI6MTM5MzE5NjcxMiwic2NvcmUiOjU4OTEsImxh
+        c3RfYWN0aXZpdHlfZGF0ZSI6MTQwMjUxMDkwMywibGFzdF9lZGl0X2RhdGUi
+        OjE0MDI1MTA5MDMsImNyZWF0aW9uX2RhdGUiOjEyMjMzOTQ2MzQsImFuc3dl
+        cl9pZCI6MTc5MTQ3LCJxdWVzdGlvbl9pZCI6MTc5MTIzLCJib2R5IjoiPHBy
+        ZSBjbGFzcz1cImxhbmctYnNoIHByZXR0eXByaW50LW92ZXJyaWRlXCI+PGNv
+        ZGU+Z2l0IGNvbW1pdCAtLWFtZW5kXG48L2NvZGU+PC9wcmU+XG5cbjxwPldp
+        bGwgb3BlbiB5b3VyIGVkaXRvciwgYWxsb3dpbmcgeW91IHRvIGNoYW5nZSB0
+        aGUgY29tbWl0IG1lc3NhZ2Ugb2YgdGhlIG1vc3QgcmVjZW50IGNvbW1pdC4g
+        QXMgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lmtlcm5lbC5vcmcvcHViL3NvZnR3
+        YXJlL3NjbS9naXQvZG9jcy9naXQtY29tbWl0Lmh0bWxcIj50aGUgR2l0IG9m
+        ZmljaWFsIGRvY3VtZW50YXRpb248L2E+IHN0YXRlcyw8L3A+XG5cbjxibG9j
+        a3F1b3RlPlxuICA8cD5Vc2VkIHRvIGFtZW5kIHRoZSB0aXAgb2YgdGhlIGN1
+        cnJlbnQgYnJhbmNoLiBQcmVwYXJlIHRoZSB0cmVlIG9iamVjdCB5b3Ugd291
+        bGQgd2FudCB0byByZXBsYWNlIHRoZSBsYXRlc3QgY29tbWl0IGFzIHVzdWFs
+        ICh0aGlzIGluY2x1ZGVzIHRoZSB1c3VhbCAtaS8tbyBhbmQgZXhwbGljaXQg
+        cGF0aHMpLCBhbmQgdGhlIGNvbW1pdCBsb2cgZWRpdG9yIGlzIHNlZWRlZCB3
+        aXRoIHRoZSBjb21taXQgbWVzc2FnZSBmcm9tIHRoZSB0aXAgb2YgdGhlIGN1
+        cnJlbnQgYnJhbmNoLiBUaGUgY29tbWl0IHlvdSBjcmVhdGUgcmVwbGFjZXMg
+        dGhlIGN1cnJlbnQgdGlwIOKAlCBpZiBpdCB3YXMgYSBtZXJnZSwgaXQgd2ls
+        bCBoYXZlIHRoZSBwYXJlbnRzIG9mIHRoZSBjdXJyZW50IHRpcCBhcyBwYXJl
+        bnRzIOKAlCBzbyB0aGUgY3VycmVudCB0b3AgY29tbWl0IGlzIGRpc2NhcmRl
+        ZC48L3A+XG4gIFxuICA8cD5JdCBpcyBhIHJvdWdoIGVxdWl2YWxlbnQgZm9y
+        PC9wPlxuICBcbiAgPHByZSBjbGFzcz1cImxhbmctYnNoIHByZXR0eXByaW50
+        LW92ZXJyaWRlXCI+PGNvZGU+Z2l0IHJlc2V0IC0tc29mdCBIRUFEXlxuIyBk
+        byBzb21ldGhpbmcgZWxzZSB0byBjb21lIHVwIHdpdGggdGhlIHJpZ2h0IHRy
+        ZWUgLi4uXG5naXQgY29tbWl0IC1jIE9SSUdfSEVBRFxuPC9jb2RlPjwvcHJl
+        PlxuICBcbiAgPHA+YnV0IGNhbiBiZSB1c2VkIHRvIGFtZW5kIGEgbWVyZ2Ug
+        Y29tbWl0LjwvcD5cbiAgXG4gIDxwPllvdSBzaG91bGQgdW5kZXJzdGFuZCB0
+        aGUgaW1wbGljYXRpb25zIG9mIHJld3JpdGluZyBoaXN0b3J5IGlmIHlvdSBh
+        bWVuZCBhIGNvbW1pdCB0aGF0IGhhcyBhbHJlYWR5IGJlZW4gcHVibGlzaGVk
+        LiAoU2VlIHRoZSBcIlJFQ09WRVJJTkcgRlJPTSBVUFNUUkVBTSBSRUJBU0Vc
+        IiBzZWN0aW9uIGluIDxhIGhyZWY9XCJodHRwczovL3d3dy5rZXJuZWwub3Jn
+        L3B1Yi9zb2Z0d2FyZS9zY20vZ2l0L2RvY3MvZ2l0LXJlYmFzZS5odG1sXCI+
+        Z2l0LXJlYmFzZSgxKTwvYT4uKTwvcD5cbjwvYmxvY2txdW90ZT5cblxuPHA+
+        QWRkaXRpb25hbGx5LCB5b3UgY2FuIHNldCB0aGUgY29tbWl0IG1lc3NhZ2Ug
+        ZGlyZWN0bHkgaW4gdGhlIGNvbW1hbmQgbGluZSB3aXRoOjwvcD5cblxuPHBy
+        ZSBjbGFzcz1cImxhbmctYnNoIHByZXR0eXByaW50LW92ZXJyaWRlXCI+PGNv
+        ZGU+Z2l0IGNvbW1pdCAtLWFtZW5kIC1tIFwiTmV3IGNvbW1pdCBtZXNzYWdl
+        XCJcbjwvY29kZT48L3ByZT5cblxuPHA+4oCmaG93ZXZlciwgdGhpcyBjYW4g
+        bWFrZSBtdWx0aS1saW5lIGNvbW1pdCBtZXNzYWdlcyBvciBzbWFsbCBjb3Jy
+        ZWN0aW9ucyBtb3JlIGN1bWJlcnNvbWUgdG8gZW50ZXIuPC9wPlxuXG48cD48
+        ZW0+U291cmNlOjwvZW0+IDxhIGhyZWY9XCJodHRwczovL3d3dy5rZXJuZWwu
+        b3JnL3B1Yi9zb2Z0d2FyZS9zY20vZ2l0L2RvY3MvZ2l0LWNvbW1pdC5odG1s
+        XCI+R2l0IG9mZmljaWFsIGRvY3VtZW50YXRpb248L2E+LiBGb3IgbW9yZSBk
+        ZXRhaWxzLCByZWZlciB0bzo8L3A+XG5cbjxwcmUgY2xhc3M9XCJsYW5nLWJz
+        aCBwcmV0dHlwcmludC1vdmVycmlkZVwiPjxjb2RlPmdpdCBoZWxwIGNvbW1p
+        dFxuPC9jb2RlPjwvcHJlPlxuIn1dLCJoYXNfbW9yZSI6ZmFsc2UsInF1b3Rh
+        X21heCI6MTAwMDAsInF1b3RhX3JlbWFpbmluZyI6OTk2OX0=
+    http_version: 
+  recorded_at: Thu, 31 Dec 2009 13:00:06 GMT
+recorded_with: VCR 2.9.2

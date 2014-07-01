@@ -1,0 +1,5 @@
+- flash.each do |level, msg|
+  - if msg.is_a?(String)
+    div class=("alert alert-#{flash_class(level)}")
+      button.close data-dismiss="alert" type="button"  &times;
+      = content_tag(:div, msg, :id => "flash_#{level}")

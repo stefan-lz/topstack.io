@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  database: topstack
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: postgresql
+  database: topstack_test
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  database: topstack
+  pool: 5
+  timeout: 5000

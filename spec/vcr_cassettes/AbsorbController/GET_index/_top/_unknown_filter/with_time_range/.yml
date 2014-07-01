@@ -1,0 +1,166 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.0/tags?key=<STACKAPPS_API_KEY>&pagesize=99&site=stackoverflow&sort=popular
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Mon, 23 Jun 2014 13:34:09 GMT
+      Content-Length:
+      - '1226'
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":662516,"name":"java"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":658313,"name":"c#"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":639366,"name":"javascript"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":598277,"name":"php"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":526525,"name":"android"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":496967,"name":"jquery"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":313699,"name":"python"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":311088,"name":"html"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":298128,"name":"c++"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":254609,"name":"mysql"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":247638,"name":"ios"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":229956,"name":"css"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":224692,"name":"asp.net"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":220500,"name":"sql"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":193727,"name":"iphone"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":189853,"name":"objective-c"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":188387,"name":".net"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":167780,"name":"ruby-on-rails"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":144114,"name":"c"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":107719,"name":"ruby"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":101491,"name":"sql-server"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":95077,"name":"ajax"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":94514,"name":"arrays"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":93186,"name":"xml"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":91583,"name":"regex"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":88290,"name":"asp.net-mvc"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":86248,"name":"wpf"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":82054,"name":"json"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":79244,"name":"linux"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":77017,"name":"database"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":76162,"name":"django"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":69559,"name":"vb.net"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":68141,"name":"eclipse"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":66796,"name":"windows"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":64577,"name":"xcode"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":60717,"name":"string"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":60258,"name":"r"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":57966,"name":"html5"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":57836,"name":"facebook"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":55602,"name":"multithreading"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":53788,"name":"wordpress"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":51293,"name":"ruby-on-rails-3"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":50503,"name":"image"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":50018,"name":"winforms"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":49299,"name":"node.js"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":47116,"name":"forms"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":46865,"name":"excel"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":46289,"name":"spring"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":44348,"name":"osx"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":43750,"name":"performance"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":43222,"name":"oracle"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":42997,"name":"swing"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":42411,"name":"algorithm"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":42330,"name":"git"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":41929,"name":"visual-studio-2010"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":41460,"name":"angularjs"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":40559,"name":"linq"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":40129,"name":"apache"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":38339,"name":"web-services"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":38212,"name":"perl"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":38079,"name":"bash"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":37886,"name":"entity-framework"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":37537,"name":"asp.net-mvc-3"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":37181,"name":"wcf"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":36205,"name":"visual-studio"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":36063,"name":"sql-server-2008"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":35623,"name":"hibernate"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":34495,"name":"matlab"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":33761,"name":"actionscript-3"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":32281,"name":"list"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":32248,"name":"qt"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":31564,"name":".htaccess"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":31501,"name":"sqlite"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":31069,"name":"file"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":30534,"name":"mongodb"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":30331,"name":"ipad"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":29930,"name":"api"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29829,"name":"css3"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29802,"name":"cocoa-touch"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":29731,"name":"function"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29708,"name":"cocoa"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":29415,"name":"codeigniter"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":29365,"name":"flash"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":28763,"name":"vba"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":28707,"name":"class"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":28391,"name":"jquery-ui"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":28117,"name":"postgresql"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27967,"name":"google-maps"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27688,"name":"tsql"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":27523,"name":"jsp"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27398,"name":"shell"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":27223,"name":"security"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":27044,"name":"delphi"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":26629,"name":"scala"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":26446,"name":"silverlight"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":26406,"name":"sockets"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":26190,"name":"validation"},{"has_synonyms":true,"is_moderator_only":false,"is_required":false,"count":26159,"name":"google-app-engine"},{"has_synonyms":false,"is_moderator_only":false,"is_required":false,"count":26000,"name":"twitter-bootstrap"}],"has_more":true,"quota_max":10000,"quota_remaining":9995}'
+    http_version: 
+  recorded_at: Thu, 31 Dec 2009 13:00:01 GMT
+- request:
+    method: get
+    uri: https://api.stackexchange.com/2.0/questions?filter=withbody&fromdate=1261612800&key=<STACKAPPS_API_KEY>&pagesize=11&site=stackoverflow&sort=votes&todate=1262217600
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - private
+      Content-Type:
+      - application/json; charset=utf-8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Date:
+      - Mon, 23 Jun 2014 13:34:11 GMT
+      Content-Length:
+      - '4950'
+    body:
+      encoding: UTF-8
+      string: '{"items":[{"tags":["git","version-control","cloud","dropbox"],"owner":{"reputation":4064,"user_id":235246,"user_type":"registered","accept_rate":79,"profile_image":"https://www.gravatar.com/avatar/a086b5d93ffc55b9bdbeaab1257fd455?s=128&d=identicon&r=PG","display_name":"n1kh1lp","link":"http://stackoverflow.com/users/235246/n1kh1lp"},"is_answered":true,"view_count":146395,"accepted_answer_id":1961515,"answer_count":14,"score":700,"last_activity_date":1397462865,"creation_date":1261730511,"last_edit_date":1392208056,"question_id":1960799,"link":"http://stackoverflow.com/questions/1960799/using-git-and-dropbox-together-effectively","title":"Using
+        Git and Dropbox together effectively?","body":"<p>How do I use <a href=\"http://en.wikipedia.org/wiki/Git_%28software%29\">Git</a>
+        and <a href=\"http://en.wikipedia.org/wiki/Dropbox_%28service%29\">Dropbox</a>
+        together effectively?</p>\n"},{"tags":["web-api","imdb"],"owner":{"reputation":1699,"user_id":236756,"user_type":"registered","accept_rate":17,"profile_image":"https://www.gravatar.com/avatar/bd4799f96a9bcea1a7fdd1f40c010070?s=128&d=identicon&r=PG","display_name":"tusay","link":"http://stackoverflow.com/users/236756/tusay"},"is_answered":true,"view_count":170924,"protected_date":1305611727,"answer_count":16,"score":324,"last_activity_date":1395010204,"creation_date":1261935633,"last_edit_date":1345073301,"question_id":1966503,"link":"http://stackoverflow.com/questions/1966503/does-imdb-provide-an-api","title":"Does
+        IMDB provide an API?","body":"<p>I recently found a movie organizer application
+        which fetches its data from the IMDB database.</p>\n\n<p>Does IMDB provide
+        an API for this, or any third party APIs available?</p>\n"},{"tags":["jquery","ajax","forms","submit"],"owner":{"reputation":9718,"user_id":25645,"user_type":"registered","accept_rate":73,"profile_image":"https://www.gravatar.com/avatar/b02cab91fb3c5604163c116c494de2a5?s=128&d=identicon&r=PG","display_name":"Nathan
+        H","link":"http://stackoverflow.com/users/25645/nathan-h"},"is_answered":true,"view_count":404992,"accepted_answer_id":1960245,"answer_count":9,"score":224,"last_activity_date":1390337220,"creation_date":1261704708,"last_edit_date":1351618445,"question_id":1960240,"link":"http://stackoverflow.com/questions/1960240/jquery-ajax-submit-form","title":"jQuery
+        AJAX submit form","body":"<p>I have a form with name orderproductForm and
+        an undefined number of inputs.</p>\n\n<p>I want to do some kind of jQuery.get
+        or ajax or anything like that that would call a page through Ajax, and send
+        along all the inputs of the form orderproductForm.</p>\n\n<p>I suppose one
+        way would be to do something like</p>\n\n<pre><code>jQuery.get(\"myurl\",\n          {action
+        : document.orderproductForm.action.value,\n           cartproductid : document.orderproductForm.cartproductid.value,\n           productid
+        : document.orderproductForm.productid.value,\n           ...\n</code></pre>\n\n<p>However
+        I do not know exactly all the form inputs. Is there a feature, function or
+        something that would just send ALL the form inputs?</p>\n\n<p>Thanks</p>\n"},{"tags":["git"],"owner":{"reputation":15744,"user_id":68183,"user_type":"registered","accept_rate":54,"profile_image":"https://www.gravatar.com/avatar/db92156fccb31def7688ae66d221f803?s=128&d=identicon&r=PG","display_name":"mrblah","link":"http://stackoverflow.com/users/68183/mrblah"},"is_answered":true,"view_count":111391,"answer_count":10,"score":221,"last_activity_date":1396372562,"creation_date":1261956119,"last_edit_date":1299515488,"question_id":1967370,"link":"http://stackoverflow.com/questions/1967370/git-replacing-lf-with-crlf","title":"git
+        replacing LF with CRLF","body":"<p>Running git on a Windows XP machine, using
+        bash. I exported my project from SVN, and then cloned a bare repository.</p>\n\n<p>I
+        then pasted the export into the bare repositories directory, and did a:</p>\n\n<pre><code>git
+        add -A\n</code></pre>\n\n<p>I then got a list of messages saying:</p>\n\n<blockquote>\n  <p>LF
+        will be replaced by CRLF</p>\n</blockquote>\n\n<p>What are the ramifications
+        of this conversion? This is a .NET solution in Visual Studio.</p>\n"},{"tags":["git","git-commit"],"owner":{"reputation":4653,"user_id":105760,"user_type":"registered","accept_rate":97,"profile_image":"http://i.stack.imgur.com/HjFvK.jpg?s=128&g=1","display_name":"Clark
+        Gaebel","link":"http://stackoverflow.com/users/105760/clark-gaebel"},"is_answered":true,"view_count":32372,"accepted_answer_id":1962112,"answer_count":2,"score":214,"last_activity_date":1360318293,"creation_date":1261780251,"last_edit_date":1335998750,"question_id":1962094,"link":"http://stackoverflow.com/questions/1962094/what-is-the-sign-off-feature-in-git-for","title":"What
+        is the Sign Off feature in Git for?","body":"<p>What''s the point of the <a
+        href=\"http://schacon.github.com/git/git-commit.html\">Sign Off feature in
+        Git</a>?</p>\n\n<pre><code>git commit --signoff\n</code></pre>\n\n<p>When
+        should I use it, if at all? </p>\n"},{"tags":["c#","collections"],"owner":{"reputation":16965,"user_id":112100,"user_type":"registered","accept_rate":92,"profile_image":"https://www.gravatar.com/avatar/06b8cf11a06476f630eabd53c8ac11a6?s=128&d=identicon&r=PG","display_name":"Omu","link":"http://stackoverflow.com/users/112100/omu"},"is_answered":true,"view_count":24815,"accepted_answer_id":1970001,"answer_count":15,"score":194,"last_activity_date":1383661186,"creation_date":1262014229,"last_edit_date":1345537349,"question_id":1969993,"link":"http://stackoverflow.com/questions/1969993/is-it-better-to-return-null-or-empty-collection","title":"Is
+        it better to return null or empty collection?","body":"<p>that''s kind off
+        a general question (but I''m using C#), what''s the best way (best practice),
+        do you return null or empty collection for a method that has a collection
+        as a return type ?</p>\n"},{"tags":["design-patterns","repository-pattern","ddd-repositories","aggregateroot"],"owner":{"reputation":15596,"user_id":356,"user_type":"registered","accept_rate":100,"profile_image":"https://www.gravatar.com/avatar/d7903d8d8a0ef0b446d12906bc32dae8?s=128&d=identicon&r=PG","display_name":"Dinah","link":"http://stackoverflow.com/users/356/dinah"},"is_answered":true,"view_count":26694,"accepted_answer_id":1958722,"answer_count":5,"score":183,"last_activity_date":1378800900,"creation_date":1261666951,"question_id":1958621,"link":"http://stackoverflow.com/questions/1958621/whats-an-aggregate-root","title":"What&#39;s
+        an Aggregate Root?","body":"<p>I''m trying to get my head around how to properly
+        use the repository pattern. The central concept of an Aggregate Root keeps
+        coming up. When searching both the web and Stack Overflow for help with what
+        an aggregate root is, I keep finding discussions about them and dead links
+        to pages that are supposed to contain base definitions.</p>\n\n<p>In the context
+        of the repository pattern, <strong>what is an aggregate root?</strong></p>\n"},{"tags":["database","language-agnostic","database-design"],"owner":{"reputation":71911,"user_id":38360,"user_type":"registered","accept_rate":75,"profile_image":"https://www.gravatar.com/avatar/070c469de0c26fa0c6c90dae4e15c622?s=128&d=identicon&r=PG","display_name":"Aaronaught","link":"http://stackoverflow.com/users/38360/aaronaught"},"is_answered":true,"view_count":11195,"closed_date":1366112813,"answer_count":31,"community_owned_date":1262196026,"score":175,"last_activity_date":1288530436,"creation_date":1262196026,"last_edit_date":1262224924,"question_id":1981526,"link":"http://stackoverflow.com/questions/1981526/what-should-every-developer-know-about-databases","closed_reason":"not
+        constructive","title":"What should every developer know about databases?","body":"<p>Whether
+        we like it or not, many if not most of us developers either regularly work
+        with databases or may have to work with one someday.  And considering the
+        amount of misuse and abuse in the wild, and the volume of database-related
+        questions that come up every day, it''s fair to say that there are certain
+        concepts that developers should know - even if they don''t design or work
+        with databases today.  So:</p>\n\n<hr>\n\n<p><br/></p>\n\n<h2>What are the
+        important concepts that developers and other software professionals ought
+        to know about databases?</h2>\n\n<p><br/></p>\n\n<h3>Guidelines for Responses:</h3>\n\n<hr>\n\n<p><strong>Keep
+        your list short.</strong><br/>\nOne concept per answer is best.</p>\n\n<p><strong>Be
+        specific</strong>.<br/>\n\"Data modelling\" may be an important <em>skill</em>,
+        but <em>what does that mean precisely?</em></p>\n\n<p><strong>Explain your
+        rationale.</strong><br/>\nWhy is your concept important?  Don''t just say
+        \"use indexes.\"  Don''t fall into \"best practices.\"  Convince your audience
+        to go learn more.</p>\n\n<p><strong>Upvote answers you agree with.</strong><br/>\nRead
+        other people''s answers first.  One high-ranked answer is a more effective
+        statement than two low-ranked ones.  If you have more to add, either add a
+        comment or reference the original.</p>\n\n<p><strong>Don''t downvote something
+        just because it doesn''t apply to you personally.</strong><br/>\nWe all work
+        in different domains.  The objective here is to provide direction for database
+        novices to gain a well-founded, well-rounded understanding of database design
+        and database-driven development, not to compete for the title of most-important.</p>\n"},{"tags":["javascript","node.js"],"owner":{"reputation":1833,"user_id":36047,"user_type":"registered","accept_rate":66,"profile_image":"https://www.gravatar.com/avatar/cd6b7b44ae01daa8af45d71909e3abcf?s=128&d=identicon&r=PG","display_name":"disc0dancer","link":"http://stackoverflow.com/users/36047/disc0dancer"},"is_answered":true,"view_count":65386,"accepted_answer_id":14406029,"answer_count":14,"score":159,"last_activity_date":1398149891,"creation_date":1262045329,"last_edit_date":1396198761,"question_id":1972242,"link":"http://stackoverflow.com/questions/1972242/auto-reload-of-files-in-node-js","title":"Auto-reload
+        of files in Node.js","body":"<p>EDIT: Use <a href=\"http://github.com/isaacs/node-supervisor\">http://github.com/isaacs/node-supervisor</a>;
+        This is an old question and the code example is made with an outdated Node.js
+        API. </p>\n\n<p>Any ideas on how I could implement an auto-reload of files
+        in node.js. I''m tired of restarting the server every time I change a file.
+        \nApparently Node.js'' <code>require()</code> function does not reload files
+        if they already have been required, so I need to do something like this:</p>\n\n<pre><code>var
+        sys     = require(''sys''), \n    http    = require(''http''),\n    posix   =
+        require(''posix''),\n    json    = require(''./json'');\n\nvar script_name      =
+        ''/some/path/to/app.js'';\nthis.app     = require(''./app'').app;\n\nprocess.watchFile(script_name,
+        function(curr, prev){\n    posix.cat(script_name).addCallback(function(content){\n        process.compile(
+        content, script_name );\n    });\n});\n\nhttp.createServer(this.app).listen(
+        8080 );\n</code></pre>\n\n<p>And in the <em>app.js</em> file I have:</p>\n\n<pre><code>var
+        file = require(''./file'');\nthis.app = function(req, res) { \n    file.serveFile(
+        req, res, ''file.js'');  \n}\n</code></pre>\n\n<p>But this also isn''t working
+        - I get an error in the <code>process.compile()</code> statement saying that
+        ''require'' is not defined. <code>process.compile</code> is evaling the <em>app.js</em>,
+        but has no clue about the node.js globals.</p>\n"},{"tags":["jquery","animation"],"owner":{"reputation":1310,"user_id":173623,"user_type":"registered","accept_rate":89,"profile_image":"https://www.gravatar.com/avatar/16d13062465b02f174b6961eedd05165?s=128&d=identicon&r=PG","display_name":"thedp","link":"http://stackoverflow.com/users/173623/thedp"},"is_answered":true,"view_count":318138,"closed_date":1380115732,"accepted_answer_id":1964871,"answer_count":10,"score":152,"last_activity_date":1397599490,"creation_date":1261876229,"last_edit_date":1380115686,"question_id":1964839,"link":"http://stackoverflow.com/questions/1964839/jquery-please-wait-loading-animation","closed_reason":"duplicate","title":"jQuery
+        &quot;Please Wait, Loading...&quot; animation?","body":"<p>I would like to
+        place a \"please wait, loading\" spinning circle animation on my site. Where
+        can I find a JQuery \"Please wait, loading\" animation plugin?</p>\n"},{"tags":["asp.net-mvc"],"owner":{"reputation":926,"user_id":238572,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/68a92016db867346bd06adc649aefbc9?s=128&d=identicon&r=PG","display_name":"Kronos","link":"http://stackoverflow.com/users/238572/kronos"},"is_answered":true,"view_count":65907,"accepted_answer_id":2842587,"answer_count":10,"score":146,"last_activity_date":1373442845,"creation_date":1261744945,"last_edit_date":1298995110,"question_id":1961114,"link":"http://stackoverflow.com/questions/1961114/date-only-from-textboxfor","title":"Date
+        only from TextBoxFor()","body":"<p>I''m having trouble displaying the only
+        date part of a DateTime into a textbox using TextBoxFor&lt;,>(expression,
+        htmlAttributes).</p>\n\n<p>The model is based on Linq2SQL, field is a DateTime
+        on SQL and in the Entity model.</p>\n\n<p><strong>Failed:</strong></p>\n\n<pre><code>&lt;%=
+        Html.TextBoxFor(model =&gt; model.dtArrivalDate, String.Format(\"{0:dd/MM/yyyy}\",
+        Model.dtArrivalDate))%&gt;\n</code></pre>\n\n<p>This trick seems to be depreciated,
+        any string value in the object htmlAttribute is ignored.</p>\n\n<p><strong>Failed:</strong></p>\n\n<pre><code>[DisplayFormat(
+        DataFormatString = \"{0:dd/MM/yyyy}\" )]\npublic string dtArrivalDate { get;
+        set; }\n</code></pre>\n\n<p>I would like to store and display only the date
+        part on the details/edit view, without the \"00:00:00\" part.</p>\n"}],"has_more":true,"quota_max":10000,"quota_remaining":9994}'
+    http_version: 
+  recorded_at: Thu, 31 Dec 2009 13:00:02 GMT
+recorded_with: VCR 2.9.2
