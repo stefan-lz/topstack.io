@@ -1,7 +1,10 @@
 language: ruby
 rvm:
   - "2.1.1"
-cache: bundler
+install: bundle install --path vendor/cache
+cache:
+  directories:
+  - vendor/cache
 env:
   - STACKAPPS_CLIENT_ID=filtered STACKAPPS_CLIENT_SECRET=filtered STACKAPPS_API_KEY=filtered
 addons:

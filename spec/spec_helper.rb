@@ -62,7 +62,7 @@ RSpec.configure do |config|
   config.before(:each) do
     DatabaseCleaner.start
     #Timecop.freeze(Time.local(2010)) #breaks capybara
-    Timecop.travel(Time.local(2010))
+    Timecop.travel(Time.utc(2010))
   end
 
   config.after(:each) do
@@ -77,9 +77,9 @@ WebMock.enable!
 VCR.configure do |c|
   c.configure_rspec_metadata!
   c.cassette_library_dir = 'spec/vcr_cassettes'
-  c.default_cassette_options = { :serialize_with => :json }
   c.hook_into :webmock # or :fakeweb
-  c.debug_logger = STDOUT
+  #c.default_cassette_options = { :serialize_with => :json }
+  #c.debug_logger = STDOUT
 
   c.filter_sensitive_data("<STACKAPPS_CLIENT_ID>") { ENV['STACKAPPS_CLIENT_ID'] }
   c.filter_sensitive_data("<STACKAPPS_CLIENT_SECRET>") { ENV['STACKAPPS_CLIENT_SECRET'] }
