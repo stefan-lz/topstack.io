@@ -2,6 +2,8 @@ language: ruby
 rvm:
   - "2.1.1"
 cache: bundler
+env:
+  - STACKAPPS_CLIENT_ID=filtered STACKAPPS_CLIENT_SECRET=filtered STACKAPPS_API_KEY=filtered
 addons:
   postgresql: "9.3"
 services:
