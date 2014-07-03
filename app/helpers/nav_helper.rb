@@ -8,16 +8,16 @@ module NavHelper
   def build_path options
     top = "top-#{options[:top] || @top || 10}"
 
-    if options[:tags] == 'nil'
+    tags = options[:tags] || @tags
+    if tags == 'nil' || tags.nil? || tags.empty?
       tags = nil
     else
-      tags = (options[:tags] || @tags).try(:join, '+')
+      tags = tags.join('+')
     end
 
-    if options[:time_range] == 'nil'
+    time_range = options[:time_range] || humanized_time_range
+    if time_range == 'nil'
       time_range = nil
-    else
-      time_range = options[:time_range] || humanized_time_range()
     end
 
     '/' + [top, tags, time_range].compact.join('/')
@@ -28,10 +28,10 @@ module NavHelper
   end
 
   def humanized_time_range
-    @human_readable_time_range ||= 
+    @human_readable_time_range ||=
       begin
         if @time_range.nil? || @time_range.keys.empty?
-          nil 
+          nil
         elsif (@time_range[:time_to] - @time_range[:time_from]) == 7.days.to_i
           'this-week'
         elsif (@time_range[:time_to] - @time_range[:time_from]) == 31.days.to_i

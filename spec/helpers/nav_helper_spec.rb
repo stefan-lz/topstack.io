@@ -85,6 +85,12 @@ describe NavHelper, :type => :helper do
 
         it { expect(build_path(new_options)).to eq('/top-50/javascript+ruby/this-week') }
 
+        context 'empty tags' do
+          let (:previous_tags) { [] }
+
+          it { expect(build_path(new_options)).to eq('/top-50/this-week') }
+        end
+
         context 'and new' do
           let (:new_top) {100}
           let (:new_tags) { %w(html) }
