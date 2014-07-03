@@ -93,7 +93,7 @@ describe AbsorbController, :type => :controller do
   describe 'GET index - with no results', :vcr do
 
     before do
-      Timecop.freeze(Time.local(1990))
+      Timecop.freeze(Time.utc(1990))
       get :index, { time_range: 'this-week' }
     end
 
@@ -124,7 +124,7 @@ describe AbsorbController, :type => :controller do
 
     before do
       session['current_path'] = current_path_in_session
-      post :update, id: absorb.id, score: score, answer_revealed_at: Time.now - 10.seconds
+      post :update, id: absorb.id, score: score, answer_revealed_at: (Time.now - 10.seconds).utc
     end
 
     describe 'scoring' do

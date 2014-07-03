@@ -56,7 +56,7 @@ describe NavHelper, :type => :helper do
     context 'time-range' do
       context 'with previous' do
         let (:previous_time_range) {
-          {time_from: (Time.now - 7.days).to_i, time_to: Time.now.to_i}
+          {time_from: 0, time_to: 7.days.to_i}
         }
 
         it { expect(build_path(new_options)).to eq('/top-10/this-week') }
@@ -80,7 +80,7 @@ describe NavHelper, :type => :helper do
         let (:previous_top) {50}
         let (:previous_tags) { %w(javascript ruby) }
         let (:previous_time_range) {
-          {time_from: (Time.now - 7.days).to_i, time_to: Time.now.to_i}
+          {time_from: 0, time_to: 7.days.to_i}
         }
 
         it { expect(build_path(new_options)).to eq('/top-50/javascript+ruby/this-week') }
