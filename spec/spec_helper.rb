@@ -49,7 +49,6 @@ RSpec.configure do |config|
   config.expect_with :rspec do |c|
     c.syntax = :expect
   end
-  #config.extend VCR::RSpec::Macros
 
   config.before(:suite) do
     DatabaseCleaner.clean_with(:truncation)
@@ -76,12 +75,14 @@ end
 WebMock.enable!
 
 VCR.configure do |c|
-  c.ignore_localhost = true
-  c.cassette_library_dir = 'spec/vcr_cassettes'
-  c.hook_into :webmock # or :fakeweb
   c.configure_rspec_metadata!
+  c.cassette_library_dir = 'spec/vcr_cassettes'
+  c.default_cassette_options = { :serialize_with => :json }
+  c.hook_into :webmock # or :fakeweb
+  c.debug_logger = STDOUT
 
   c.filter_sensitive_data("<STACKAPPS_CLIENT_ID>") { ENV['STACKAPPS_CLIENT_ID'] }
   c.filter_sensitive_data("<STACKAPPS_CLIENT_SECRET>") { ENV['STACKAPPS_CLIENT_SECRET'] }
   c.filter_sensitive_data("<STACKAPPS_API_KEY>") { ENV['STACKAPPS_API_KEY'] }
+  c.ignore_localhost = true
 end
