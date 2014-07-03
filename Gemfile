@@ -42,6 +42,9 @@ gem 'local_time'
 #notify about errors in production
 gem 'exception_notification'
 
+#have a maintenance page, incase everything goes wrong
+gem 'turnout'
+
 #some analytics
 gem 'google-analytics-rails'
 gem 'librato-rails'
