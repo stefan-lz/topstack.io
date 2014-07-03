@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - "2.1.1"
+cache: bundler
 addons:
   postgresql: "9.3"
 services:
@@ -9,3 +10,4 @@ before_script:
 - cp config/database.yml.travis config/database.yml
 - cp config/redis.yml.travis config/redis.yml
 - psql -c 'create database topstack_test;' -U postgres
+script: ./scripts/run-travis.sh
