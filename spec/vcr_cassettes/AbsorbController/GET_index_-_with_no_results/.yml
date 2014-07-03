@@ -29,12 +29,14 @@ http_interactions:
       Access-Control-Allow-Credentials:
       - 'false'
       Date:
-      - Mon, 23 Jun 2014 13:34:20 GMT
+      - Thu, 03 Jul 2014 05:19:05 GMT
       Content-Length:
-      - '82'
+      - '85'
     body:
-      encoding: UTF-8
-      string: '{"items":[],"has_more":false,"quota_max":10000,"quota_remaining":9988}'
+      encoding: ASCII-8BIT
+      string: !binary |-
+        77u/eyJpdGVtcyI6W10sImhhc19tb3JlIjpmYWxzZSwicXVvdGFfbWF4Ijox
+        MDAwMCwicXVvdGFfcmVtYWluaW5nIjo5ODA5fQ==
     http_version: 
   recorded_at: Sun, 31 Dec 1989 13:00:00 GMT
 recorded_with: VCR 2.9.2

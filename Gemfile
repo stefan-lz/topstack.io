@@ -19,7 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jbuilder', '~> 1.2'
 
 #stack-overflow api
-gem 'serel'
+gem 'serel', :github => 'stefan-lz/serel'
 gem 'circuit_breaker'
 
 #stack-overflow sign in

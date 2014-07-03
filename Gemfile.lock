@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/stefan-lz/serel.git
+  revision: 2b7987ccb4e779835d4af86ad28b4ecf72e05f6d
+  specs:
+    serel (1.2.0)
+      activesupport
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -257,8 +264,6 @@ GEM
       multi_json (~> 1.0)
       rubyzip (~> 1.0)
       websocket (~> 1.0.4)
-    serel (1.2.0)
-      activesupport
     sexp_processor (4.4.3)
     shoulda-matchers (2.6.1)
       activesupport (>= 3.0.0)
@@ -351,7 +356,7 @@ DEPENDENCIES
   ruby-debug-ide
   sass-rails (~> 4)
   selenium-webdriver
-  serel
+  serel!
   shoulda-matchers
   simplecov
   slim
