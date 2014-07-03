@@ -1,0 +1,6 @@
+test:
+  username: postgres
+  adapter: postgresql
+  database: topstack_test
+  pool: 5
+  timeout: 5000
