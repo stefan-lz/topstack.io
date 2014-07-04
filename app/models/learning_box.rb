@@ -26,11 +26,13 @@ class LearningBox < ActiveRecord::Base
   end
 
   def self.next_review_time(user, question_pool)
+    #TODO: write some specs and features around this.
     learning_box = where( user_id:     user.id,
                           question_id: question_pool.map{ |q|
                                          q['question_id'] })
-                  .where('next_review is not null')
-                  .order(next_review: :desc).first
+                  .where.not(level:    'buried')
+                  .where.not(next_review: nil)
+                  .order(next_review: :asc).first
 
     learning_box.next_review if learning_box
   end
