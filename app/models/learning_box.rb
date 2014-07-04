@@ -29,6 +29,7 @@ class LearningBox < ActiveRecord::Base
     learning_box = where( user_id:     user.id,
                           question_id: question_pool.map{ |q|
                                          q['question_id'] })
+                  .where('next_review is not null')
                   .order(next_review: :desc).first
 
     learning_box.next_review if learning_box

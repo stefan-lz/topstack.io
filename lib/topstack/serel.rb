@@ -29,7 +29,7 @@ module TopStack
     end
 
     def questions filter_options={}
-      filter_options[:top] ||= 10  
+      filter_options[:top] ||= 10
       filter_options[:top] += 1 if filter_options[:top] < 100 #pagesize of 11 gives 10 questions for some reason, max 100
 
       @redis.select(filter_options) ||
