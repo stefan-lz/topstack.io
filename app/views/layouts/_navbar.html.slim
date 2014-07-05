@@ -10,6 +10,7 @@
         div
           span.topstack-brand-image
           span.topstack-brand-text topstack.io
+          span.topstack-brand-beta  beta
     .collapse.navbar-collapse
       ul.nav.navbar-nav
         li.dropdown
@@ -79,4 +80,4 @@
             ul.dropdown-menu
               li= link_to "Sign out", sign_out_path
         - else
-          li= link_to 'Sign in', auth_path
+          li= link_to 'Sign in with stackoverflow', auth_path

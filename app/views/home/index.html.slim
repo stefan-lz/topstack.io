@@ -1,11 +1,13 @@
 .row
   .col-md-12
-   .jumbotron
-      h1 topstack.io
+    .jumbotron
+      h1
+        | topstack.io
+        span beta
       p
-        | An 
-        a href="https://github.com/stefan-lz/topstack.io" open source
-        |  app to test yourself against some of the most asked questions on stackoverflow.
+         | An 
+         a href="https://github.com/stefan-lz/topstack.io" open source
+         |  app to learn from some of the most asked questions on stackoverflow.
       p = link_to 'Get Started >>', '/top-10', {class: "btn btn-lg btn-primary", role: 'button'}
 .row.plain
   .col-md-4
@@ -14,19 +16,41 @@
       | It uses the most popular 
       a href="http://stackoverflow.com" stackoverflow
       |  quesions, and sprinkles it with some 
-      a href="http://en.wikipedia.org/wiki/Spaced_learning" spaced learning
-      |  algorithms. Kinda inspired by 
+      a href="http://en.wikipedia.org/wiki/Spaced_learning" spaced recall
+      |  algorithms. The goal of this spaced recall is to help the student move answers into long-term memory. Stackoverflow is naturally a good source of continuous, peer reviewed, modern Q&A content. (Heavily inspired by 
       a href="http://ankisrs.net/" anki
-      | , an excellent flash card program, but also out of a need for continuous, good peer reviewed, modern content.
+      | , an excellent flash card program.)
+    h1 Why
+    p  
+    p
+      | It can be used to test, or to learn, or both. For example, do you think you're a javascript ninja? Then you shouldn't have any trouble answering the 
+      a href="/top-10/javascript" top 10 highest rated javascript questions.
+      |  Or if you're learning python for the first time, here's the 
+      a href="/top-50/python" top 50 things about python you probably should know.
+      |  Or perhaps a new release or tech has just come out? Here's the 
+      a href="/top-10/angularjs/this-month" top 10 issues about angularjs popping up this month.
+      |   Although it can be used this way, it will 
+      strong not 
+      |  give you a fundamental understanding of a subject, and is not a replacement to a good guide, book, or screencast.
   .col-md-4
     h1 Getting started
-    p Sign in using your stackoverflow account, or just click 'get started' to use a guest account. Select a tag from the drop-down to narrow down the content more relevant to you.  Select monthly or weekly to show more modern content.
+    p 
+      | Just click 'get started' to use a guest account which should not expire any time soon, you can also sign in using oauth with stackoverflow if you wish. 
+    p 
+      | At first a question will be shown. The idea is to try to predict the answer before flipping to it. If you think you answered correctly, hit the green button, which will increase the recall period before showing that question again. The middle orange button keeps the recall period the same. If you didn't know the answer, hit the red button to reduce the recall period and keep asking until you eventually score with an orange or green. (The recall periods are based on the 
+      a href="http://en.wikipedia.org/wiki/Pimsleur_language_learning_system" pimsleur method
+      | )
+    p
+      | If the question/answer is not suited to topstack.io, maybe its too basic, or too detailed, or you just don't care, hit 'not interested' and it will be buried and won't be shown again. If you want content more relevant to you, select from the list of tags in the navbar drop-down. If you want to focus on more modern content, select monthly or weekly. Thats it, pretty simple really :)
+
   .col-md-4
     h1 Contribute
     p
-      | Got a feature request, don't like something, found a bug? Use 
-      a href="https://github.com/stefan-lz/topstack.io/issues" topstack.io's issue tracker
-      |  on github to add an issue. Or better yet, fork the repo and submit a pull request.
+      | This application is still in beta and subject to change based on feedback and interest. It is still really just an experiment and a bit of fun at the moment, but hopefully it can be developed into a decent learning tool. So, got a feature request? Don't like something? Found a bug? Use the projects 
+      a href="https://github.com/stefan-lz/topstack.io/issues" issue tracker
+      |  on github to add an issue. Or leave some comments/suggestions on 
+      a href="http://stackapps.com/questions/4769/topstack-io-learn-from-some-of-the-most-popular-questions-and-answers-on-stack" stackapps,
+      |  If you are interested in helping to develop the site, pull requests are more than welcome.
 
 .row.footer
   .col-md-12
