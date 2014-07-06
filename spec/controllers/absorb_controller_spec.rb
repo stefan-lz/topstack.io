@@ -24,11 +24,12 @@ describe AbsorbController, :type => :controller do
     let(:tags) { 'javascript+ruby' }
     let(:time_range) { 'this-week' }
 
-    before do
-      get :index, params
-    end
 
     context 'with tags' do
+      before do
+        get :index, params
+      end
+
       let(:params) { {top: top, unknown_filter: tags} }
 
       it { expect(response.status).to eq(200) }
@@ -37,6 +38,10 @@ describe AbsorbController, :type => :controller do
     end
 
     context 'with time_range' do
+      before do
+        get :index, params
+      end
+
       let(:params) { {top: top, unknown_filter: time_range} }
 
       it { expect(response.status).to eq(200) }
@@ -44,11 +49,10 @@ describe AbsorbController, :type => :controller do
       it { expect(assigns(:absorb)).to_not be_nil }
     end
 
-    context 'with invalid param' do
+    context 'bad param' do
       let(:params) { {top: top, unknown_filter: 'no-good'} }
 
-      it { expect(response.status).to eq(404) }
-      it { expect(response).to render_template(:file => "#{Rails.root}/public/404.html") }
+      it { expect{get :index, params}.to raise_error ActionController::RoutingError }
     end
   end
 
@@ -59,33 +63,33 @@ describe AbsorbController, :type => :controller do
     let(:time_range) { 'this-month' }
     let(:params) { {top: top, tags: tags, time_range: time_range} }
 
-    before do
-      get :index, params
+    context 'valid params' do
+      before do
+        get :index, params
+      end
+
+      it { expect(response.status).to eq(200) }
+      it { expect(response).to render_template('show') }
+      it { expect(assigns(:absorb)).to_not be_nil }
     end
 
-    it { expect(response.status).to eq(200) }
-    it { expect(response).to render_template('show') }
-    it { expect(assigns(:absorb)).to_not be_nil }
 
     context 'bad top param' do
       let(:top) { 'not-top-10' }
 
-      it { expect(response.status).to eq(404) }
-      it { expect(response).to render_template(:file => "#{Rails.root}/public/404.html") }
+      it { expect{get :index, params}.to raise_error ActionController::RoutingError }
     end
 
     context 'bad tags param' do
       let(:tags) { 'non-existant-tag' }
 
-      it { expect(response.status).to eq(404) }
-      it { expect(response).to render_template(:file => "#{Rails.root}/public/404.html") }
+      it { expect{get :index, params}.to raise_error ActionController::RoutingError }
     end
 
     context 'bad time-range' do
       let(:time_range) { 'not-a-time-range' }
 
-      it { expect(response.status).to eq(404) }
-      it { expect(response).to render_template(:file => "#{Rails.root}/public/404.html") }
+      it { expect{get :index, params}.to raise_error ActionController::RoutingError }
     end
 
   end

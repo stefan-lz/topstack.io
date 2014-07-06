@@ -8,7 +8,7 @@ class AbsorbController < ApplicationController
     begin
       @top, @tags, @time_range = get_params
     rescue TopStackParamsError => e
-      return render_404
+      return not_found
     end
 
     session['current_path'] = request.path

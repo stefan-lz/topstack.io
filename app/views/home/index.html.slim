@@ -5,11 +5,13 @@
         | topstack.io
         span beta
       p
-         | An 
-         a href="https://github.com/stefan-lz/topstack.io" open source
-         |  app to learn from some of the most asked questions on stackoverflow.
+         | An experiment in combining top 
+         a href="http://stackoverflow.com" stackoverflow
+         |  questions with  
+         a hrep="http://en.wikipedia.org/wiki/Spaced_repetition" spaced recall
+         |  to maybe learn a thing or 2.
       p = link_to 'Get Started >>', '/top-10', {class: "btn btn-lg btn-primary", role: 'button'}
-.row.plain
+.row.plai
   .col-md-4
     h1 How it works
     p
@@ -20,18 +22,6 @@
       |  algorithms. The goal of this spaced recall is to help the student move answers into long-term memory. Stackoverflow is naturally a good source of continuous, peer reviewed, modern Q&A content. (Heavily inspired by 
       a href="http://ankisrs.net/" anki
       | , an excellent flash card program.)
-    h1 Why
-    p  
-    p
-      | It can be used to test, or to learn, or both. For example, do you think you're a javascript ninja? Then you shouldn't have any trouble answering the 
-      a href="/top-10/javascript" top 10 highest rated javascript questions.
-      |  Or if you're learning python for the first time, here's the 
-      a href="/top-50/python" top 50 things about python you probably should know.
-      |  Or perhaps a new release or tech has just come out? Here's the 
-      a href="/top-10/angularjs/this-month" top 10 issues about angularjs popping up this month.
-      |   Although it can be used this way, it will 
-      strong not 
-      |  give you a fundamental understanding of a subject, and is not a replacement to a good guide, book, or screencast.
   .col-md-4
     h1 Getting started
     p 
@@ -46,7 +36,7 @@
   .col-md-4
     h1 Contribute
     p
-      | This application is still in beta and subject to change based on feedback and interest. It is still really just an experiment and a bit of fun at the moment, but hopefully it can be developed into a decent learning tool. So, got a feature request? Don't like something? Found a bug? Use the projects 
+      | This application is still in beta and subject to change based on feedback and interest. It is still really just an experiment and a bit of fun at the moment, but hopefully it can be developed something a bit more decent. So, got a feature request? Don't like something? Found a bug? Use the projects 
       a href="https://github.com/stefan-lz/topstack.io/issues" issue tracker
       |  on github to add an issue. Or leave some comments/suggestions on 
       a href="http://stackapps.com/questions/4769/topstack-io-learn-from-some-of-the-most-popular-questions-and-answers-on-stack" stackapps,
@@ -60,5 +50,7 @@
       |  with help from 
       = link_to "these projects", '/Gemfile'
     p
-      | Code licensed under the 
+      | Code is  
+      a href="https://github.com/stefan-lz/topstack.io" open source
+      |  and licensed under the 
       a href="http://opensource.org/licenses/MIT" MIT license
